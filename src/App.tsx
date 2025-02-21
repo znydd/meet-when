@@ -1,10 +1,13 @@
-import './App.css'
+import Header from './header'
 
 function App() {
 
   return (
-    <div className='bg-blue-500'>
-   Hello world 
+   <div className='bg-[#09090b] h-full p-2'>
+      <Header/>
+      <div className=' text-amber-50'>
+        Hello world 
+      </div>
     </div>
   )
 }
