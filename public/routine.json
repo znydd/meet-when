@@ -1,5 +1,6 @@
-{
-    "CSE101-01": {
+[
+    {
+        "id": "CSE101-01",
         "Initial": "RBR",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -8,7 +9,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT11-03L"
     },
-    "CSE101-02": {
+    {
+        "id": "CSE101-02",
         "Initial": "TNMF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -17,7 +19,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT11-03L"
     },
-    "CSE101-03": {
+    {
+        "id": "CSE101-03",
         "Initial": "TNMF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -26,7 +29,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT11-03L"
     },
-    "CSE101-04": {
+    {
+        "id": "CSE101-04",
         "Initial": "TNMF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -35,7 +39,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT11-03L"
     },
-    "CSE101-05": {
+    {
+        "id": "CSE101-05",
         "Initial": "NZRF",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -44,7 +49,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT11-03L"
     },
-    "CSE103-01": {
+    {
+        "id": "CSE103-01",
         "Initial": "XXX",
         "Theory-Day": "FRI",
         "Theory-Start-Time": "9:30 AM",
@@ -53,7 +59,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT11-04L"
     },
-    "CSE103-02": {
+    {
+        "id": "CSE103-02",
         "Initial": "XXX",
         "Theory-Day": "FRI",
         "Theory-Start-Time": "9:30 AM",
@@ -62,7 +69,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT11-04L"
     },
-    "CSE110-01": {
+    {
+        "id": "CSE110-01",
         "Initial": "RKN",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -71,7 +79,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-11L"
     },
-    "CSE110-02": {
+    {
+        "id": "CSE110-02",
         "Initial": "TAW",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -80,7 +89,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-09L"
     },
-    "CSE110-03": {
+    {
+        "id": "CSE110-03",
         "Initial": "MSI",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -89,7 +99,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-09L"
     },
-    "CSE110-04": {
+    {
+        "id": "CSE110-04",
         "Initial": "MSI",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -98,7 +109,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-09L"
     },
-    "CSE110-05": {
+    {
+        "id": "CSE110-05",
         "Initial": "MSI",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -107,7 +119,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-09L"
     },
-    "CSE110-06": {
+    {
+        "id": "CSE110-06",
         "Initial": "MSI",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -116,7 +129,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-11L"
     },
-    "CSE110-07": {
+    {
+        "id": "CSE110-07",
         "Initial": "KNI",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -125,7 +139,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-08L"
     },
-    "CSE110-08": {
+    {
+        "id": "CSE110-08",
         "Initial": "KNI",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -134,7 +149,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-08L"
     },
-    "CSE110-09": {
+    {
+        "id": "CSE110-09",
         "Initial": "SBHN",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -143,7 +159,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-10L"
     },
-    "CSE110-10": {
+    {
+        "id": "CSE110-10",
         "Initial": "SBHN",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -152,7 +169,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-10L"
     },
-    "CSE110-11": {
+    {
+        "id": "CSE110-11",
         "Initial": "SBHN",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -161,7 +179,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09E-21L"
     },
-    "CSE110-12": {
+    {
+        "id": "CSE110-12",
         "Initial": "DFD",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -170,7 +189,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-10L"
     },
-    "CSE110-13": {
+    {
+        "id": "CSE110-13",
         "Initial": "DFD",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -179,7 +199,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-11L"
     },
-    "CSE110-14": {
+    {
+        "id": "CSE110-14",
         "Initial": "MAU",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -188,7 +209,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-08L"
     },
-    "CSE110-15": {
+    {
+        "id": "CSE110-15",
         "Initial": "MAU",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -197,7 +219,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-10L"
     },
-    "CSE110-16": {
+    {
+        "id": "CSE110-16",
         "Initial": "SBB",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -206,7 +229,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-09L"
     },
-    "CSE110-17": {
+    {
+        "id": "CSE110-17",
         "Initial": "SBB",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -215,7 +239,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-10L"
     },
-    "CSE110-19": {
+    {
+        "id": "CSE110-19",
         "Initial": "RKBM",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -224,7 +249,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-09L"
     },
-    "CSE110-20": {
+    {
+        "id": "CSE110-20",
         "Initial": "ADU",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -233,7 +259,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-08L"
     },
-    "CSE110-21": {
+    {
+        "id": "CSE110-21",
         "Initial": "ADU",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -242,7 +269,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-08L"
     },
-    "CSE110-22": {
+    {
+        "id": "CSE110-22",
         "Initial": "SHDM",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -251,7 +279,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-08L"
     },
-    "CSE110-23": {
+    {
+        "id": "CSE110-23",
         "Initial": "SHDM",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -260,7 +289,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-10L"
     },
-    "CSE110-24": {
+    {
+        "id": "CSE110-24",
         "Initial": "SHDM",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -269,7 +299,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-26L"
     },
-    "CSE110-26": {
+    {
+        "id": "CSE110-26",
         "Initial": "ATY",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -278,7 +309,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09E-21L"
     },
-    "CSE110-27": {
+    {
+        "id": "CSE110-27",
         "Initial": "ATY",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -287,7 +319,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09E-21L"
     },
-    "CSE110-28": {
+    {
+        "id": "CSE110-28",
         "Initial": "MNY",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -296,7 +329,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-11L"
     },
-    "CSE110-29": {
+    {
+        "id": "CSE110-29",
         "Initial": "TOKD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -305,7 +339,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-11L"
     },
-    "CSE111-02": {
+    {
+        "id": "CSE111-02",
         "Initial": "AVB",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -314,7 +349,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-27L"
     },
-    "CSE111-03": {
+    {
+        "id": "CSE111-03",
         "Initial": "TAW",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -323,7 +359,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-31L"
     },
-    "CSE111-04": {
+    {
+        "id": "CSE111-04",
         "Initial": "TAW",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -332,7 +369,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09E-21L"
     },
-    "CSE111-05": {
+    {
+        "id": "CSE111-05",
         "Initial": "TAW",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -341,7 +379,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12F-31L"
     },
-    "CSE111-06": {
+    {
+        "id": "CSE111-06",
         "Initial": "KNI",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -350,7 +389,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-08L"
     },
-    "CSE111-07": {
+    {
+        "id": "CSE111-07",
         "Initial": "KNI",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -359,7 +399,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-09L"
     },
-    "CSE111-08": {
+    {
+        "id": "CSE111-08",
         "Initial": "AIB",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -368,7 +409,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-08L"
     },
-    "CSE111-09": {
+    {
+        "id": "CSE111-09",
         "Initial": "AIB",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -377,7 +419,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-10L"
     },
-    "CSE111-10": {
+    {
+        "id": "CSE111-10",
         "Initial": "TMD",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -386,7 +429,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-09L"
     },
-    "CSE111-11": {
+    {
+        "id": "CSE111-11",
         "Initial": "TMD",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -395,7 +439,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-10L"
     },
-    "CSE111-12": {
+    {
+        "id": "CSE111-12",
         "Initial": "ANK",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -404,7 +449,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-26L"
     },
-    "CSE111-13": {
+    {
+        "id": "CSE111-13",
         "Initial": "ANK",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -413,7 +459,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-27L"
     },
-    "CSE111-14": {
+    {
+        "id": "CSE111-14",
         "Initial": "MAU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -422,7 +469,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-27L"
     },
-    "CSE111-15": {
+    {
+        "id": "CSE111-15",
         "Initial": "MAU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -431,7 +479,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10E-27L"
     },
-    "CSE111-16": {
+    {
+        "id": "CSE111-16",
         "Initial": "SBB",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -440,7 +489,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-26L"
     },
-    "CSE111-17": {
+    {
+        "id": "CSE111-17",
         "Initial": "SBB",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -449,7 +499,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-25L"
     },
-    "CSE111-19": {
+    {
+        "id": "CSE111-19",
         "Initial": "QUZA",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -458,7 +509,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-24L"
     },
-    "CSE111-20": {
+    {
+        "id": "CSE111-20",
         "Initial": "FEK",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -467,7 +519,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-25L"
     },
-    "CSE111-21": {
+    {
+        "id": "CSE111-21",
         "Initial": "FEK",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -476,7 +529,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-26L"
     },
-    "CSE111-22": {
+    {
+        "id": "CSE111-22",
         "Initial": "RKBM",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -485,7 +539,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-10L"
     },
-    "CSE111-23": {
+    {
+        "id": "CSE111-23",
         "Initial": "RKBM",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -494,7 +549,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-11L"
     },
-    "CSE111-24": {
+    {
+        "id": "CSE111-24",
         "Initial": "AFA",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -503,7 +559,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-08L"
     },
-    "CSE111-25": {
+    {
+        "id": "CSE111-25",
         "Initial": "ADU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -512,7 +569,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09E-22L"
     },
-    "CSE111-26": {
+    {
+        "id": "CSE111-26",
         "Initial": "ADU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -521,7 +579,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09E-22L"
     },
-    "CSE111-27": {
+    {
+        "id": "CSE111-27",
         "Initial": "AFA",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -530,7 +589,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-11L"
     },
-    "CSE220-01": {
+    {
+        "id": "CSE220-01",
         "Initial": "PNP",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -539,7 +599,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-26L"
     },
-    "CSE220-02": {
+    {
+        "id": "CSE220-02",
         "Initial": "PNP",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -548,7 +609,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-09L"
     },
-    "CSE220-03": {
+    {
+        "id": "CSE220-03",
         "Initial": "SWG",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -557,7 +619,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-11L"
     },
-    "CSE220-04": {
+    {
+        "id": "CSE220-04",
         "Initial": "SWG",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -566,7 +629,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09E-21L"
     },
-    "CSE220-05": {
+    {
+        "id": "CSE220-05",
         "Initial": "AHU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -575,7 +639,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-10L"
     },
-    "CSE220-06": {
+    {
+        "id": "CSE220-06",
         "Initial": "AHU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -584,7 +649,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-11L"
     },
-    "CSE220-07": {
+    {
+        "id": "CSE220-07",
         "Initial": "HFN",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -593,7 +659,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09E-21L"
     },
-    "CSE220-08": {
+    {
+        "id": "CSE220-08",
         "Initial": "MUNR",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -602,7 +669,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-10L"
     },
-    "CSE220-09": {
+    {
+        "id": "CSE220-09",
         "Initial": "MUNR",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -611,7 +679,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-11L"
     },
-    "CSE220-10": {
+    {
+        "id": "CSE220-10",
         "Initial": "AIB",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -620,7 +689,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-08L"
     },
-    "CSE220-11": {
+    {
+        "id": "CSE220-11",
         "Initial": "AIB",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -629,7 +699,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-09L"
     },
-    "CSE220-12": {
+    {
+        "id": "CSE220-12",
         "Initial": "SBDK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -638,7 +709,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-09L"
     },
-    "CSE220-13": {
+    {
+        "id": "CSE220-13",
         "Initial": "SBDK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -647,7 +719,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-11L"
     },
-    "CSE220-14": {
+    {
+        "id": "CSE220-14",
         "Initial": "AJA",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -656,7 +729,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09E-21L"
     },
-    "CSE220-15": {
+    {
+        "id": "CSE220-15",
         "Initial": "MNP",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -665,7 +739,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09E-22L"
     },
-    "CSE220-16": {
+    {
+        "id": "CSE220-16",
         "Initial": "MDF",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -674,7 +749,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-09L"
     },
-    "CSE220-17": {
+    {
+        "id": "CSE220-17",
         "Initial": "KDZM",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -683,7 +759,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09E-22L"
     },
-    "CSE220-18": {
+    {
+        "id": "CSE220-18",
         "Initial": "KDZM",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -692,7 +769,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-25L"
     },
-    "CSE220-19": {
+    {
+        "id": "CSE220-19",
         "Initial": "ZMD",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -701,7 +779,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-10L"
     },
-    "CSE220-20": {
+    {
+        "id": "CSE220-20",
         "Initial": "ZMD",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -710,7 +789,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-11L"
     },
-    "CSE220-21": {
+    {
+        "id": "CSE220-21",
         "Initial": "ZMD",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -719,7 +799,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-10L"
     },
-    "CSE220-22": {
+    {
+        "id": "CSE220-22",
         "Initial": "AYO",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -728,7 +809,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-10L"
     },
-    "CSE220-23": {
+    {
+        "id": "CSE220-23",
         "Initial": "AYO",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -737,7 +819,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09E-21L"
     },
-    "CSE220-24": {
+    {
+        "id": "CSE220-24",
         "Initial": "MTF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -746,7 +829,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09E-22L"
     },
-    "CSE220-25": {
+    {
+        "id": "CSE220-25",
         "Initial": "MTF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -755,7 +839,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09E-22L"
     },
-    "CSE220-26": {
+    {
+        "id": "CSE220-26",
         "Initial": "MTF",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -764,7 +849,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-08L"
     },
-    "CSE220-27": {
+    {
+        "id": "CSE220-27",
         "Initial": "MTF",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -773,7 +859,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-09L"
     },
-    "CSE220-28": {
+    {
+        "id": "CSE220-28",
         "Initial": "MNW",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -782,7 +869,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-08L"
     },
-    "CSE220-29": {
+    {
+        "id": "CSE220-29",
         "Initial": "MNW",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -791,7 +879,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-09L"
     },
-    "CSE220-30": {
+    {
+        "id": "CSE220-30",
         "Initial": "MNW",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -800,7 +889,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-10L"
     },
-    "CSE220-31": {
+    {
+        "id": "CSE220-31",
         "Initial": "AWBS",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -809,7 +899,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09E-21L"
     },
-    "CSE220-32": {
+    {
+        "id": "CSE220-32",
         "Initial": "AWBS",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -818,7 +909,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09E-22L"
     },
-    "CSE220-33": {
+    {
+        "id": "CSE220-33",
         "Initial": "JMA",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -827,7 +919,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-26L"
     },
-    "CSE220-34": {
+    {
+        "id": "CSE220-34",
         "Initial": "JMA",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -836,7 +929,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-11L"
     },
-    "CSE221-01": {
+    {
+        "id": "CSE221-01",
         "Initial": "PNP",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -845,7 +939,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09E-22L"
     },
-    "CSE221-02": {
+    {
+        "id": "CSE221-02",
         "Initial": "PNP",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -854,7 +949,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-27L"
     },
-    "CSE221-03": {
+    {
+        "id": "CSE221-03",
         "Initial": "FGZ",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -863,7 +959,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-08L"
     },
-    "CSE221-04": {
+    {
+        "id": "CSE221-04",
         "Initial": "FGZ",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -872,7 +969,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-08L"
     },
-    "CSE221-05": {
+    {
+        "id": "CSE221-05",
         "Initial": "PSMD",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -881,7 +979,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-26L"
     },
-    "CSE221-06": {
+    {
+        "id": "CSE221-06",
         "Initial": "NSB",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -890,7 +989,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-27L"
     },
-    "CSE221-07": {
+    {
+        "id": "CSE221-07",
         "Initial": "EHD",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -899,7 +999,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09E-21L"
     },
-    "CSE221-08": {
+    {
+        "id": "CSE221-08",
         "Initial": "EHD",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -908,7 +1009,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09E-22L"
     },
-    "CSE221-09": {
+    {
+        "id": "CSE221-09",
         "Initial": "RSS",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -917,7 +1019,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-08L"
     },
-    "CSE221-10": {
+    {
+        "id": "CSE221-10",
         "Initial": "MUNR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -926,7 +1029,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-25L"
     },
-    "CSE221-11": {
+    {
+        "id": "CSE221-11",
         "Initial": "MUNR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -935,7 +1039,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-25L"
     },
-    "CSE221-12": {
+    {
+        "id": "CSE221-12",
         "Initial": "NSB",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -944,7 +1049,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-27L"
     },
-    "CSE221-13": {
+    {
+        "id": "CSE221-13",
         "Initial": "DPU",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -953,7 +1059,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-27L"
     },
-    "CSE221-14": {
+    {
+        "id": "CSE221-14",
         "Initial": "ANK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -962,7 +1069,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-08L"
     },
-    "CSE221-15": {
+    {
+        "id": "CSE221-15",
         "Initial": "ANK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -971,7 +1079,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-09L"
     },
-    "CSE221-16": {
+    {
+        "id": "CSE221-16",
         "Initial": "TAP",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -980,7 +1089,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09E-21L"
     },
-    "CSE221-18": {
+    {
+        "id": "CSE221-18",
         "Initial": "MIBA",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -989,7 +1099,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-25L"
     },
-    "CSE221-19": {
+    {
+        "id": "CSE221-19",
         "Initial": "MIBA",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -998,7 +1109,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09B-10L"
     },
-    "CSE221-20": {
+    {
+        "id": "CSE221-20",
         "Initial": "MIBA",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -1007,7 +1119,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-11L"
     },
-    "CSE221-21": {
+    {
+        "id": "CSE221-21",
         "Initial": "MIBA",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -1016,7 +1129,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-26L"
     },
-    "CSE221-22": {
+    {
+        "id": "CSE221-22",
         "Initial": "ZYH",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -1025,7 +1139,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-09L"
     },
-    "CSE221-23": {
+    {
+        "id": "CSE221-23",
         "Initial": "ZYH",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -1034,7 +1149,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-11L"
     },
-    "CSE221-24": {
+    {
+        "id": "CSE221-24",
         "Initial": "ZMD",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -1043,7 +1159,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-08L"
     },
-    "CSE221-25": {
+    {
+        "id": "CSE221-25",
         "Initial": "AYO",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -1052,7 +1169,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-09L"
     },
-    "CSE221-26": {
+    {
+        "id": "CSE221-26",
         "Initial": "AYO",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -1061,7 +1179,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-10L"
     },
-    "CSE221-27": {
+    {
+        "id": "CSE221-27",
         "Initial": "SOHB",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -1070,7 +1189,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-26L"
     },
-    "CSE221-29": {
+    {
+        "id": "CSE221-29",
         "Initial": "MMM",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -1079,7 +1199,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-08L"
     },
-    "CSE221-30": {
+    {
+        "id": "CSE221-30",
         "Initial": "NSB",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -1088,7 +1209,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09E-22L"
     },
-    "CSE230-01": {
+    {
+        "id": "CSE230-01",
         "Initial": "FHZ",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -1097,7 +1219,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-02": {
+    {
+        "id": "CSE230-02",
         "Initial": "FHZ",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -1106,7 +1229,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-03": {
+    {
+        "id": "CSE230-03",
         "Initial": "NNY",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -1115,7 +1239,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-04": {
+    {
+        "id": "CSE230-04",
         "Initial": "FIC",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -1124,7 +1249,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-05": {
+    {
+        "id": "CSE230-05",
         "Initial": "FIC",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -1133,7 +1259,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-06": {
+    {
+        "id": "CSE230-06",
         "Initial": "SLAR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -1142,7 +1269,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-07": {
+    {
+        "id": "CSE230-07",
         "Initial": "NFK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -1151,7 +1279,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-08": {
+    {
+        "id": "CSE230-08",
         "Initial": "AHF",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -1160,7 +1289,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-09": {
+    {
+        "id": "CSE230-09",
         "Initial": "QUZA",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -1169,7 +1299,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-10": {
+    {
+        "id": "CSE230-10",
         "Initial": "NFK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -1178,7 +1309,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-12": {
+    {
+        "id": "CSE230-12",
         "Initial": "AHF",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -1187,7 +1319,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-13": {
+    {
+        "id": "CSE230-13",
         "Initial": "NFK",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -1196,7 +1329,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-14": {
+    {
+        "id": "CSE230-14",
         "Initial": "SBAW",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -1205,7 +1339,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-15": {
+    {
+        "id": "CSE230-15",
         "Initial": "SBAW",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -1214,7 +1349,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-16": {
+    {
+        "id": "CSE230-16",
         "Initial": "FDZ",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -1223,7 +1359,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-17": {
+    {
+        "id": "CSE230-17",
         "Initial": "NZRF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -1232,7 +1369,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-18": {
+    {
+        "id": "CSE230-18",
         "Initial": "FHZ",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -1241,7 +1379,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-19": {
+    {
+        "id": "CSE230-19",
         "Initial": "NZRF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -1250,7 +1389,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-20": {
+    {
+        "id": "CSE230-20",
         "Initial": "AVB",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -1259,7 +1399,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-21": {
+    {
+        "id": "CSE230-21",
         "Initial": "AVB",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -1268,7 +1409,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-22": {
+    {
+        "id": "CSE230-22",
         "Initial": "YND",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -1277,7 +1419,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-23": {
+    {
+        "id": "CSE230-23",
         "Initial": "SOHB",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -1286,7 +1429,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-24": {
+    {
+        "id": "CSE230-24",
         "Initial": "SOHB",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -1295,7 +1439,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-28": {
+    {
+        "id": "CSE230-28",
         "Initial": "PSMD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -1304,7 +1449,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE230-29": {
+    {
+        "id": "CSE230-29",
         "Initial": "PSMD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -1313,7 +1459,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE250-01": {
+    {
+        "id": "CSE250-01",
         "Initial": "TAV",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -1322,7 +1469,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-02": {
+    {
+        "id": "CSE250-02",
         "Initial": "PDS",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -1331,7 +1479,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-03": {
+    {
+        "id": "CSE250-03",
         "Initial": "UTS",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -1340,7 +1489,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-04": {
+    {
+        "id": "CSE250-04",
         "Initial": "FFR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -1349,7 +1499,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-05": {
+    {
+        "id": "CSE250-05",
         "Initial": "SDQ",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -1358,7 +1509,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-06": {
+    {
+        "id": "CSE250-06",
         "Initial": "SDQ",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -1367,7 +1519,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-07": {
+    {
+        "id": "CSE250-07",
         "Initial": "SDU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -1376,7 +1529,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-08": {
+    {
+        "id": "CSE250-08",
         "Initial": "KFP",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -1385,7 +1539,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-09": {
+    {
+        "id": "CSE250-09",
         "Initial": "EHQ",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -1394,7 +1549,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-10": {
+    {
+        "id": "CSE250-10",
         "Initial": "RMT",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -1403,7 +1559,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-11": {
+    {
+        "id": "CSE250-11",
         "Initial": "AKJ",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -1412,7 +1569,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-12": {
+    {
+        "id": "CSE250-12",
         "Initial": "PDS",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -1421,7 +1579,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-13": {
+    {
+        "id": "CSE250-13",
         "Initial": "MBM",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -1430,7 +1589,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-14": {
+    {
+        "id": "CSE250-14",
         "Initial": "AQT",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -1439,7 +1599,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-15": {
+    {
+        "id": "CSE250-15",
         "Initial": "MWR",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -1448,7 +1609,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-16": {
+    {
+        "id": "CSE250-16",
         "Initial": "MHY",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -1457,7 +1619,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-17": {
+    {
+        "id": "CSE250-17",
         "Initial": "MHY",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -1466,7 +1629,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-18": {
+    {
+        "id": "CSE250-18",
         "Initial": "KFP",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -1475,7 +1639,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-19": {
+    {
+        "id": "CSE250-19",
         "Initial": "SEF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -1484,7 +1649,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-20": {
+    {
+        "id": "CSE250-20",
         "Initial": "MBM",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -1493,7 +1659,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-22": {
+    {
+        "id": "CSE250-22",
         "Initial": "ZAZ",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -1502,7 +1669,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-23": {
+    {
+        "id": "CSE250-23",
         "Initial": "RFQ",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -1511,7 +1679,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-24": {
+    {
+        "id": "CSE250-24",
         "Initial": "HMH",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -1520,7 +1689,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-25": {
+    {
+        "id": "CSE250-25",
         "Initial": "SDL",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -1529,7 +1699,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-03L"
     },
-    "CSE250-26": {
+    {
+        "id": "CSE250-26",
         "Initial": "SKE",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -1538,7 +1709,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-02L"
     },
-    "CSE250-27": {
+    {
+        "id": "CSE250-27",
         "Initial": "KRP",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -1547,7 +1719,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT10-03L"
     },
-    "CSE250-28": {
+    {
+        "id": "CSE250-28",
         "Initial": "ZAZ",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -1556,7 +1729,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-02L"
     },
-    "CSE250-29": {
+    {
+        "id": "CSE250-29",
         "Initial": "RAO",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -1565,7 +1739,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-03L"
     },
-    "CSE250-30": {
+    {
+        "id": "CSE250-30",
         "Initial": "SZZ",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -1574,7 +1749,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT10-03L"
     },
-    "CSE250-32": {
+    {
+        "id": "CSE250-32",
         "Initial": "AQT",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -1583,7 +1759,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-03L"
     },
-    "CSE250-33": {
+    {
+        "id": "CSE250-33",
         "Initial": "RAO",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -1592,7 +1769,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE250-34": {
+    {
+        "id": "CSE250-34",
         "Initial": "TAV",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -1601,7 +1779,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-02L"
     },
-    "CSE251-01": {
+    {
+        "id": "CSE251-01",
         "Initial": "PDS",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -1610,7 +1789,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-03L"
     },
-    "CSE251-02": {
+    {
+        "id": "CSE251-02",
         "Initial": "AKJ",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -1619,7 +1799,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-01L"
     },
-    "CSE251-03": {
+    {
+        "id": "CSE251-03",
         "Initial": "FFR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -1628,7 +1809,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-01L"
     },
-    "CSE251-04": {
+    {
+        "id": "CSE251-04",
         "Initial": "MWR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -1637,7 +1819,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT10-02L"
     },
-    "CSE251-05": {
+    {
+        "id": "CSE251-05",
         "Initial": "SDL",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -1646,7 +1829,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-02L"
     },
-    "CSE251-06": {
+    {
+        "id": "CSE251-06",
         "Initial": "UTS",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -1655,7 +1839,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-01L"
     },
-    "CSE251-08": {
+    {
+        "id": "CSE251-08",
         "Initial": "HMH",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -1664,7 +1849,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-02L"
     },
-    "CSE251-09": {
+    {
+        "id": "CSE251-09",
         "Initial": "RMT",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -1673,7 +1859,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-01L"
     },
-    "CSE251-10": {
+    {
+        "id": "CSE251-10",
         "Initial": "MFSQ",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -1682,7 +1869,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT10-01L"
     },
-    "CSE251-11": {
+    {
+        "id": "CSE251-11",
         "Initial": "MFSQ",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -1691,7 +1879,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-03L"
     },
-    "CSE251-12": {
+    {
+        "id": "CSE251-12",
         "Initial": "ARA",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -1700,7 +1889,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-02L"
     },
-    "CSE251-13": {
+    {
+        "id": "CSE251-13",
         "Initial": "EHQ",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -1709,7 +1899,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT10-02L"
     },
-    "CSE251-14": {
+    {
+        "id": "CSE251-14",
         "Initial": "MOM",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -1718,7 +1909,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT10-02L"
     },
-    "CSE251-15": {
+    {
+        "id": "CSE251-15",
         "Initial": "SEF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -1727,7 +1919,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-01L"
     },
-    "CSE251-16": {
+    {
+        "id": "CSE251-16",
         "Initial": "TMY",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -1736,7 +1929,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-01L"
     },
-    "CSE251-17": {
+    {
+        "id": "CSE251-17",
         "Initial": "YAP",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -1745,7 +1939,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT10-01L"
     },
-    "CSE251-18": {
+    {
+        "id": "CSE251-18",
         "Initial": "TMY",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -1754,7 +1949,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-01L"
     },
-    "CSE251-19": {
+    {
+        "id": "CSE251-19",
         "Initial": "KRP",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -1763,7 +1959,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-02L"
     },
-    "CSE251-20": {
+    {
+        "id": "CSE251-20",
         "Initial": "RAS",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -1772,7 +1969,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-03L"
     },
-    "CSE251-21": {
+    {
+        "id": "CSE251-21",
         "Initial": "RAS",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -1781,7 +1979,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT10-01L"
     },
-    "CSE251-22": {
+    {
+        "id": "CSE251-22",
         "Initial": "MOM",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -1790,7 +1989,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-03L"
     },
-    "CSE251-23": {
+    {
+        "id": "CSE251-23",
         "Initial": "MWR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -1799,7 +1999,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT10-01L"
     },
-    "CSE251-24": {
+    {
+        "id": "CSE251-24",
         "Initial": "UPM",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -1808,7 +2009,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT10-02L"
     },
-    "CSE251-25": {
+    {
+        "id": "CSE251-25",
         "Initial": "AGS",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -1817,7 +2019,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT10-02L"
     },
-    "CSE251-26": {
+    {
+        "id": "CSE251-26",
         "Initial": "TSE",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -1826,7 +2029,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-03L"
     },
-    "CSE251-27": {
+    {
+        "id": "CSE251-27",
         "Initial": "YAP",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -1835,7 +2039,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT10-03L"
     },
-    "CSE251-28": {
+    {
+        "id": "CSE251-28",
         "Initial": "MBM",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -1844,7 +2049,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-02L"
     },
-    "CSE251-29": {
+    {
+        "id": "CSE251-29",
         "Initial": "UPM",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -1853,7 +2059,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-01L"
     },
-    "CSE251-30": {
+    {
+        "id": "CSE251-30",
         "Initial": "THL",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -1862,7 +2069,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-03L"
     },
-    "CSE260-01": {
+    {
+        "id": "CSE260-01",
         "Initial": "PBK",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -1871,7 +2079,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-04L"
     },
-    "CSE260-02": {
+    {
+        "id": "CSE260-02",
         "Initial": "PBK",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -1880,7 +2089,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT08-04L"
     },
-    "CSE260-03": {
+    {
+        "id": "CSE260-03",
         "Initial": "FIC",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -1889,7 +2099,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-04L"
     },
-    "CSE260-04": {
+    {
+        "id": "CSE260-04",
         "Initial": "FIC",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -1898,7 +2109,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-04L"
     },
-    "CSE260-05": {
+    {
+        "id": "CSE260-05",
         "Initial": "APM",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -1907,7 +2119,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-04L"
     },
-    "CSE260-06": {
+    {
+        "id": "CSE260-06",
         "Initial": "APM",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -1916,7 +2129,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-04L"
     },
-    "CSE260-07": {
+    {
+        "id": "CSE260-07",
         "Initial": "MDF",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -1925,7 +2139,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT08-04L"
     },
-    "CSE260-08": {
+    {
+        "id": "CSE260-08",
         "Initial": "MDF",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -1934,7 +2149,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT08-04L"
     },
-    "CSE260-09": {
+    {
+        "id": "CSE260-09",
         "Initial": "DZK",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -1943,7 +2159,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT08-04L"
     },
-    "CSE260-10": {
+    {
+        "id": "CSE260-10",
         "Initial": "DZK",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -1952,7 +2169,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT10-04L"
     },
-    "CSE260-11": {
+    {
+        "id": "CSE260-11",
         "Initial": "DZK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -1961,7 +2179,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-04L"
     },
-    "CSE260-12": {
+    {
+        "id": "CSE260-12",
         "Initial": "DZK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -1970,7 +2189,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT10-04L"
     },
-    "CSE260-13": {
+    {
+        "id": "CSE260-13",
         "Initial": "AFQ",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -1979,7 +2199,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT08-04L"
     },
-    "CSE260-14": {
+    {
+        "id": "CSE260-14",
         "Initial": "NLH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -1988,7 +2209,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-04L"
     },
-    "CSE260-15": {
+    {
+        "id": "CSE260-15",
         "Initial": "WBH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -1997,7 +2219,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT10-04L"
     },
-    "CSE260-16": {
+    {
+        "id": "CSE260-16",
         "Initial": "TWK",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -2006,7 +2229,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-04L"
     },
-    "CSE260-17": {
+    {
+        "id": "CSE260-17",
         "Initial": "LMI",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -2015,7 +2239,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-04L"
     },
-    "CSE260-18": {
+    {
+        "id": "CSE260-18",
         "Initial": "LMI",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -2024,7 +2249,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT10-04L"
     },
-    "CSE260-19": {
+    {
+        "id": "CSE260-19",
         "Initial": "TWK",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -2033,7 +2259,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-04L"
     },
-    "CSE260-20": {
+    {
+        "id": "CSE260-20",
         "Initial": "RFF",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -2042,7 +2269,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT08-04L"
     },
-    "CSE260-21": {
+    {
+        "id": "CSE260-21",
         "Initial": "AFQ",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -2051,7 +2279,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT08-04L"
     },
-    "CSE260-22": {
+    {
+        "id": "CSE260-22",
         "Initial": "WBH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -2060,7 +2289,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT08-04L"
     },
-    "CSE260-23": {
+    {
+        "id": "CSE260-23",
         "Initial": "NLH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -2069,7 +2299,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-04L"
     },
-    "CSE260-24": {
+    {
+        "id": "CSE260-24",
         "Initial": "MAF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -2078,7 +2309,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT08-04L"
     },
-    "CSE260-25": {
+    {
+        "id": "CSE260-25",
         "Initial": "MAF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -2087,7 +2319,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-03L"
     },
-    "CSE260-26": {
+    {
+        "id": "CSE260-26",
         "Initial": "MAO",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -2096,7 +2329,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT08-04L"
     },
-    "CSE260-27": {
+    {
+        "id": "CSE260-27",
         "Initial": "MAO",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -2105,7 +2339,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT08-04L"
     },
-    "CSE260-28": {
+    {
+        "id": "CSE260-28",
         "Initial": "THR",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -2114,7 +2349,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT08-04L"
     },
-    "CSE260-29": {
+    {
+        "id": "CSE260-29",
         "Initial": "NTN",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -2123,7 +2359,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "FT08-04L"
     },
-    "CSE260-30": {
+    {
+        "id": "CSE260-30",
         "Initial": "RFF",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -2132,7 +2369,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT08-04L"
     },
-    "CSE320-01": {
+    {
+        "id": "CSE320-01",
         "Initial": "FGZ",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -2141,7 +2379,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-02": {
+    {
+        "id": "CSE320-02",
         "Initial": "FGZ",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -2150,7 +2389,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-03": {
+    {
+        "id": "CSE320-03",
         "Initial": "STV",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -2159,7 +2399,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-04": {
+    {
+        "id": "CSE320-04",
         "Initial": "AHU",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -2168,7 +2409,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-05": {
+    {
+        "id": "CSE320-05",
         "Initial": "MSMA",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -2177,7 +2419,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-06": {
+    {
+        "id": "CSE320-06",
         "Initial": "MSMA",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -2186,7 +2429,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-07": {
+    {
+        "id": "CSE320-07",
         "Initial": "NTR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -2195,7 +2439,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-08": {
+    {
+        "id": "CSE320-08",
         "Initial": "NTR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -2204,7 +2449,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-09": {
+    {
+        "id": "CSE320-09",
         "Initial": "SHRR",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -2213,7 +2459,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-10": {
+    {
+        "id": "CSE320-10",
         "Initial": "SHRR",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -2222,7 +2469,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-11": {
+    {
+        "id": "CSE320-11",
         "Initial": "TAP",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -2231,7 +2479,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-12": {
+    {
+        "id": "CSE320-12",
         "Initial": "TAP",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -2240,7 +2489,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-13": {
+    {
+        "id": "CSE320-13",
         "Initial": "TAP",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -2249,7 +2499,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-14": {
+    {
+        "id": "CSE320-14",
         "Initial": "SHAH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -2258,7 +2509,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-15": {
+    {
+        "id": "CSE320-15",
         "Initial": "SHAH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -2267,7 +2519,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-16": {
+    {
+        "id": "CSE320-16",
         "Initial": "RAK",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -2276,7 +2529,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-17": {
+    {
+        "id": "CSE320-17",
         "Initial": "SHAH",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -2285,7 +2539,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-18": {
+    {
+        "id": "CSE320-18",
         "Initial": "AKTD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -2294,7 +2549,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-19": {
+    {
+        "id": "CSE320-19",
         "Initial": "SRJ",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -2303,7 +2559,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-20": {
+    {
+        "id": "CSE320-20",
         "Initial": "SRJ",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -2312,7 +2569,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-21": {
+    {
+        "id": "CSE320-21",
         "Initial": "RFJ",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -2321,7 +2579,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-22": {
+    {
+        "id": "CSE320-22",
         "Initial": "RAK",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -2330,7 +2589,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-23": {
+    {
+        "id": "CSE320-23",
         "Initial": "RAK",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -2339,7 +2599,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-24": {
+    {
+        "id": "CSE320-24",
         "Initial": "YND",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -2348,7 +2609,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-25": {
+    {
+        "id": "CSE320-25",
         "Initial": "NNL",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -2357,7 +2619,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-26": {
+    {
+        "id": "CSE320-26",
         "Initial": "MOZR",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -2366,7 +2629,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-27": {
+    {
+        "id": "CSE320-27",
         "Initial": "LBBH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -2375,7 +2639,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-28": {
+    {
+        "id": "CSE320-28",
         "Initial": "MOZR",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -2384,7 +2649,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-29": {
+    {
+        "id": "CSE320-29",
         "Initial": "MOZR",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -2393,7 +2659,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-30": {
+    {
+        "id": "CSE320-30",
         "Initial": "NNL",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -2402,7 +2669,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-31": {
+    {
+        "id": "CSE320-31",
         "Initial": "RFJ",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -2411,7 +2679,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE320-32": {
+    {
+        "id": "CSE320-32",
         "Initial": "AHU",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -2420,7 +2689,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE321-01": {
+    {
+        "id": "CSE321-01",
         "Initial": "EHD",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -2429,7 +2699,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-02": {
+    {
+        "id": "CSE321-02",
         "Initial": "EHD",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -2438,7 +2709,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-03": {
+    {
+        "id": "CSE321-03",
         "Initial": "SULT",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -2447,7 +2719,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-04": {
+    {
+        "id": "CSE321-04",
         "Initial": "SULT",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -2456,7 +2729,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-05": {
+    {
+        "id": "CSE321-05",
         "Initial": "NAN",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -2465,7 +2739,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-06": {
+    {
+        "id": "CSE321-06",
         "Initial": "NAN",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -2474,7 +2749,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-07": {
+    {
+        "id": "CSE321-07",
         "Initial": "BDH",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -2483,7 +2759,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-08": {
+    {
+        "id": "CSE321-08",
         "Initial": "BDH",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -2492,7 +2769,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-09": {
+    {
+        "id": "CSE321-09",
         "Initial": "BDH",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -2501,7 +2779,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12D-27L"
     },
-    "CSE321-10": {
+    {
+        "id": "CSE321-10",
         "Initial": "NTR",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -2510,7 +2789,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-11": {
+    {
+        "id": "CSE321-11",
         "Initial": "NTR",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -2519,7 +2799,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-12": {
+    {
+        "id": "CSE321-12",
         "Initial": "TSD",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -2528,7 +2809,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-13": {
+    {
+        "id": "CSE321-13",
         "Initial": "TSD",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -2537,7 +2819,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-14": {
+    {
+        "id": "CSE321-14",
         "Initial": "SWV",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -2546,7 +2829,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-15": {
+    {
+        "id": "CSE321-15",
         "Initial": "SWV",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -2555,7 +2839,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-16": {
+    {
+        "id": "CSE321-16",
         "Initial": "ACH",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -2564,7 +2849,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-17": {
+    {
+        "id": "CSE321-17",
         "Initial": "MNY",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -2573,7 +2859,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-18": {
+    {
+        "id": "CSE321-18",
         "Initial": "SDF",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -2582,7 +2869,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-19": {
+    {
+        "id": "CSE321-19",
         "Initial": "NSB",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -2591,7 +2879,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12D-26L"
     },
-    "CSE321-20": {
+    {
+        "id": "CSE321-20",
         "Initial": "AHC",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -2600,7 +2889,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-32L"
     },
-    "CSE321-21": {
+    {
+        "id": "CSE321-21",
         "Initial": "KBS",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -2609,7 +2899,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12D-27L"
     },
-    "CSE330-01": {
+    {
+        "id": "CSE330-01",
         "Initial": "NTN",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -2618,7 +2909,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-24L"
     },
-    "CSE330-02": {
+    {
+        "id": "CSE330-02",
         "Initial": "ALB",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -2627,7 +2919,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-24L"
     },
-    "CSE330-03": {
+    {
+        "id": "CSE330-03",
         "Initial": "AQU",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -2636,7 +2929,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-26L"
     },
-    "CSE330-04": {
+    {
+        "id": "CSE330-04",
         "Initial": "APM",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -2645,7 +2939,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-24L"
     },
-    "CSE330-05": {
+    {
+        "id": "CSE330-05",
         "Initial": "KDZM",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -2654,7 +2949,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-24L"
     },
-    "CSE330-06": {
+    {
+        "id": "CSE330-06",
         "Initial": "SSMT",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -2663,7 +2959,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10G-34L"
     },
-    "CSE330-07": {
+    {
+        "id": "CSE330-07",
         "Initial": "BAS",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -2672,7 +2969,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-34L"
     },
-    "CSE330-08": {
+    {
+        "id": "CSE330-08",
         "Initial": "MNP",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -2681,7 +2979,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10E-27L"
     },
-    "CSE330-09": {
+    {
+        "id": "CSE330-09",
         "Initial": "MNP",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -2690,7 +2989,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-24L"
     },
-    "CSE330-10": {
+    {
+        "id": "CSE330-10",
         "Initial": "SADF",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -2699,7 +2999,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10G-32L"
     },
-    "CSE330-11": {
+    {
+        "id": "CSE330-11",
         "Initial": "SADF",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -2708,7 +3009,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-26L"
     },
-    "CSE330-12": {
+    {
+        "id": "CSE330-12",
         "Initial": "SADF",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -2717,7 +3019,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09E-21L"
     },
-    "CSE330-13": {
+    {
+        "id": "CSE330-13",
         "Initial": "SADF",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -2726,7 +3029,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-27L"
     },
-    "CSE330-14": {
+    {
+        "id": "CSE330-14",
         "Initial": "ALB",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -2735,7 +3039,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10E-27L"
     },
-    "CSE330-15": {
+    {
+        "id": "CSE330-15",
         "Initial": "AKDR",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -2744,7 +3049,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-26L"
     },
-    "CSE330-16": {
+    {
+        "id": "CSE330-16",
         "Initial": "SKW",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -2753,7 +3059,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10E-27L"
     },
-    "CSE330-17": {
+    {
+        "id": "CSE330-17",
         "Initial": "SKW",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -2762,7 +3069,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-26L"
     },
-    "CSE330-18": {
+    {
+        "id": "CSE330-18",
         "Initial": "ADD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -2771,7 +3079,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-26L"
     },
-    "CSE330-19": {
+    {
+        "id": "CSE330-19",
         "Initial": "MSDH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -2780,7 +3089,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-26L"
     },
-    "CSE330-20": {
+    {
+        "id": "CSE330-20",
         "Initial": "MSDH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -2789,7 +3099,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10G-34L"
     },
-    "CSE330-21": {
+    {
+        "id": "CSE330-21",
         "Initial": "AMK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -2798,7 +3109,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-27L"
     },
-    "CSE330-22": {
+    {
+        "id": "CSE330-22",
         "Initial": "AMK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -2807,7 +3119,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-27L"
     },
-    "CSE330-23": {
+    {
+        "id": "CSE330-23",
         "Initial": "ADD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -2816,7 +3129,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-27L"
     },
-    "CSE330-24": {
+    {
+        "id": "CSE330-24",
         "Initial": "BAS",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -2825,7 +3139,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12F-30L"
     },
-    "CSE330-25": {
+    {
+        "id": "CSE330-25",
         "Initial": "RTF",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -2834,7 +3149,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10E-27L"
     },
-    "CSE331-01": {
+    {
+        "id": "CSE331-01",
         "Initial": "NFP",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -2843,7 +3159,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-02": {
+    {
+        "id": "CSE331-02",
         "Initial": "NFP",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -2852,7 +3169,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-03": {
+    {
+        "id": "CSE331-03",
         "Initial": "NFP",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -2861,7 +3179,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-04": {
+    {
+        "id": "CSE331-04",
         "Initial": "NFP",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -2870,7 +3189,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-05": {
+    {
+        "id": "CSE331-05",
         "Initial": "RSS",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -2879,7 +3199,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-06": {
+    {
+        "id": "CSE331-06",
         "Initial": "RSS",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -2888,7 +3209,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-07": {
+    {
+        "id": "CSE331-07",
         "Initial": "DFD",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -2897,7 +3219,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-08": {
+    {
+        "id": "CSE331-08",
         "Initial": "DFD",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -2906,7 +3229,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-09": {
+    {
+        "id": "CSE331-09",
         "Initial": "MLH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -2915,7 +3239,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-10": {
+    {
+        "id": "CSE331-10",
         "Initial": "NNL",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -2924,7 +3249,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-11": {
+    {
+        "id": "CSE331-11",
         "Initial": "NNL",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -2933,7 +3259,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-12": {
+    {
+        "id": "CSE331-12",
         "Initial": "AFA",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -2942,7 +3269,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-13": {
+    {
+        "id": "CSE331-13",
         "Initial": "AFA",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -2951,7 +3279,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-14": {
+    {
+        "id": "CSE331-14",
         "Initial": "FDM",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -2960,7 +3289,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-15": {
+    {
+        "id": "CSE331-15",
         "Initial": "ZYH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -2969,7 +3299,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-16": {
+    {
+        "id": "CSE331-16",
         "Initial": "ZYH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -2978,7 +3309,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-17": {
+    {
+        "id": "CSE331-17",
         "Initial": "KKP",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -2987,7 +3319,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-18": {
+    {
+        "id": "CSE331-18",
         "Initial": "KKP",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -2996,7 +3329,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-19": {
+    {
+        "id": "CSE331-19",
         "Initial": "KKP",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -3005,7 +3339,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-20": {
+    {
+        "id": "CSE331-20",
         "Initial": "KKP",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -3014,7 +3349,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-21": {
+    {
+        "id": "CSE331-21",
         "Initial": "TAZD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -3023,7 +3359,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE331-22": {
+    {
+        "id": "CSE331-22",
         "Initial": "RSS",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -3032,7 +3369,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-01": {
+    {
+        "id": "CSE340-01",
         "Initial": "PBK",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -3041,7 +3379,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-02": {
+    {
+        "id": "CSE340-02",
         "Initial": "PBK",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -3050,7 +3389,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-03": {
+    {
+        "id": "CSE340-03",
         "Initial": "NAN",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -3059,7 +3399,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-04": {
+    {
+        "id": "CSE340-04",
         "Initial": "NAN",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -3068,7 +3409,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-05": {
+    {
+        "id": "CSE340-05",
         "Initial": "RDW",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -3077,7 +3419,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-06": {
+    {
+        "id": "CSE340-06",
         "Initial": "RDW",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -3086,7 +3429,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-07": {
+    {
+        "id": "CSE340-07",
         "Initial": "RDW",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -3095,7 +3439,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-08": {
+    {
+        "id": "CSE340-08",
         "Initial": "SWV",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -3104,7 +3449,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-09": {
+    {
+        "id": "CSE340-09",
         "Initial": "SWV",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -3113,7 +3459,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-10": {
+    {
+        "id": "CSE340-10",
         "Initial": "ACH",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -3122,7 +3469,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-11": {
+    {
+        "id": "CSE340-11",
         "Initial": "ACH",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -3131,7 +3479,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-12": {
+    {
+        "id": "CSE340-12",
         "Initial": "ACH",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -3140,7 +3489,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-13": {
+    {
+        "id": "CSE340-13",
         "Initial": "NTB",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -3149,7 +3499,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-14": {
+    {
+        "id": "CSE340-14",
         "Initial": "NTB",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -3158,7 +3509,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-15": {
+    {
+        "id": "CSE340-15",
         "Initial": "SUI",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -3167,7 +3519,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-16": {
+    {
+        "id": "CSE340-16",
         "Initial": "SUI",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -3176,7 +3529,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE340-17": {
+    {
+        "id": "CSE340-17",
         "Initial": "AAF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -3185,7 +3539,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE341-01": {
+    {
+        "id": "CSE341-01",
         "Initial": "RKN",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -3194,7 +3549,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12F-30L"
     },
-    "CSE341-02": {
+    {
+        "id": "CSE341-02",
         "Initial": "RKN",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -3203,7 +3559,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12F-30L"
     },
-    "CSE341-03": {
+    {
+        "id": "CSE341-03",
         "Initial": "RKN",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -3212,7 +3569,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12F-30L"
     },
-    "CSE341-04": {
+    {
+        "id": "CSE341-04",
         "Initial": "RRH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -3221,7 +3579,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12F-30L"
     },
-    "CSE341-05": {
+    {
+        "id": "CSE341-05",
         "Initial": "ZHS",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -3230,7 +3589,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-30L"
     },
-    "CSE341-06": {
+    {
+        "id": "CSE341-06",
         "Initial": "LBBH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -3239,7 +3599,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12F-30L"
     },
-    "CSE341-07": {
+    {
+        "id": "CSE341-07",
         "Initial": "LBBH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -3248,7 +3609,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12F-30L"
     },
-    "CSE341-08": {
+    {
+        "id": "CSE341-08",
         "Initial": "UJT",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -3257,7 +3619,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-27L"
     },
-    "CSE341-09": {
+    {
+        "id": "CSE341-09",
         "Initial": "UJT",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -3266,7 +3629,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-27L"
     },
-    "CSE341-10": {
+    {
+        "id": "CSE341-10",
         "Initial": "SBAW",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -3275,7 +3639,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12F-30L"
     },
-    "CSE341-11": {
+    {
+        "id": "CSE341-11",
         "Initial": "HBN",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -3284,7 +3649,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-27L"
     },
-    "CSE341-12": {
+    {
+        "id": "CSE341-12",
         "Initial": "FFU",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -3293,7 +3659,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10E-27L"
     },
-    "CSE350-01": {
+    {
+        "id": "CSE350-01",
         "Initial": "SZZ",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -3302,7 +3669,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12B-20L"
     },
-    "CSE350-02": {
+    {
+        "id": "CSE350-02",
         "Initial": "SKE",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -3311,7 +3679,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12B-20L"
     },
-    "CSE350-03": {
+    {
+        "id": "CSE350-03",
         "Initial": "QSH",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -3320,7 +3689,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE350-04": {
+    {
+        "id": "CSE350-04",
         "Initial": "SDU",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -3329,7 +3699,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE350-05": {
+    {
+        "id": "CSE350-05",
         "Initial": "JMD",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -3338,7 +3709,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE350-06": {
+    {
+        "id": "CSE350-06",
         "Initial": "TSE",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -3347,7 +3719,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE350-07": {
+    {
+        "id": "CSE350-07",
         "Initial": "NUR",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -3356,7 +3729,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE350-08": {
+    {
+        "id": "CSE350-08",
         "Initial": "QSH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -3365,7 +3739,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE350-09": {
+    {
+        "id": "CSE350-09",
         "Initial": "SKE",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -3374,7 +3749,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12B-20L"
     },
-    "CSE350-10": {
+    {
+        "id": "CSE350-10",
         "Initial": "ZBH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -3383,7 +3759,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12B-20L"
     },
-    "CSE350-11": {
+    {
+        "id": "CSE350-11",
         "Initial": "NUR",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -3392,7 +3769,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-03L"
     },
-    "CSE350-12": {
+    {
+        "id": "CSE350-12",
         "Initial": "ZBH",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -3401,7 +3779,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE350-13": {
+    {
+        "id": "CSE350-13",
         "Initial": "SZZ",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -3410,7 +3789,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12B-20L"
     },
-    "CSE350-14": {
+    {
+        "id": "CSE350-14",
         "Initial": "ZAZ",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -3419,7 +3799,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-01L"
     },
-    "CSE350-15": {
+    {
+        "id": "CSE350-15",
         "Initial": "QSH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -3428,7 +3809,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "FT10-01L"
     },
-    "CSE350-16": {
+    {
+        "id": "CSE350-16",
         "Initial": "SDU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -3437,7 +3819,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "FT10-02L"
     },
-    "CSE360-01": {
+    {
+        "id": "CSE360-01",
         "Initial": "SRU",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -3446,7 +3829,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-33L"
     },
-    "CSE360-02": {
+    {
+        "id": "CSE360-02",
         "Initial": "UJT",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -3455,7 +3839,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10G-33L"
     },
-    "CSE360-03": {
+    {
+        "id": "CSE360-03",
         "Initial": "UJT",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -3464,7 +3849,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10G-33L"
     },
-    "CSE360-04": {
+    {
+        "id": "CSE360-04",
         "Initial": "SKW",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -3473,7 +3859,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-33L"
     },
-    "CSE360-05": {
+    {
+        "id": "CSE360-05",
         "Initial": "KHR",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -3482,7 +3869,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-33L"
     },
-    "CSE360-06": {
+    {
+        "id": "CSE360-06",
         "Initial": "ASA",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -3491,7 +3879,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-33L"
     },
-    "CSE360-07": {
+    {
+        "id": "CSE360-07",
         "Initial": "ASA",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -3500,7 +3889,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10G-33L"
     },
-    "CSE360-08": {
+    {
+        "id": "CSE360-08",
         "Initial": "ASA",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -3509,7 +3899,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10G-33L"
     },
-    "CSE370-01": {
+    {
+        "id": "CSE370-01",
         "Initial": "RBR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -3518,7 +3909,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10G-34L"
     },
-    "CSE370-02": {
+    {
+        "id": "CSE370-02",
         "Initial": "RBR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -3527,7 +3919,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10G-34L"
     },
-    "CSE370-03": {
+    {
+        "id": "CSE370-03",
         "Initial": "RBR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -3536,7 +3929,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-34L"
     },
-    "CSE370-04": {
+    {
+        "id": "CSE370-04",
         "Initial": "NNC",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -3545,7 +3939,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12F-31L"
     },
-    "CSE370-05": {
+    {
+        "id": "CSE370-05",
         "Initial": "NNC",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -3554,7 +3949,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12F-31L"
     },
-    "CSE370-06": {
+    {
+        "id": "CSE370-06",
         "Initial": "NNC",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -3563,7 +3959,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10G-34L"
     },
-    "CSE370-07": {
+    {
+        "id": "CSE370-07",
         "Initial": "FZN",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -3572,7 +3969,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-24L"
     },
-    "CSE370-08": {
+    {
+        "id": "CSE370-08",
         "Initial": "DPU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -3581,7 +3979,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-34L"
     },
-    "CSE370-09": {
+    {
+        "id": "CSE370-09",
         "Initial": "DPU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -3590,7 +3989,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10G-34L"
     },
-    "CSE370-10": {
+    {
+        "id": "CSE370-10",
         "Initial": "FEK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -3599,7 +3999,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-24L"
     },
-    "CSE370-11": {
+    {
+        "id": "CSE370-11",
         "Initial": "FEK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -3608,7 +4009,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09E-21L"
     },
-    "CSE370-12": {
+    {
+        "id": "CSE370-12",
         "Initial": "KZMN",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -3617,7 +4019,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10E-27L"
     },
-    "CSE370-13": {
+    {
+        "id": "CSE370-13",
         "Initial": "NZU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -3626,7 +4029,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12D-27L"
     },
-    "CSE370-14": {
+    {
+        "id": "CSE370-14",
         "Initial": "NZU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -3635,7 +4039,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-30L"
     },
-    "CSE370-15": {
+    {
+        "id": "CSE370-15",
         "Initial": "MTT",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -3644,7 +4049,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12D-27L"
     },
-    "CSE370-16": {
+    {
+        "id": "CSE370-16",
         "Initial": "MTT",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -3653,7 +4059,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12F-32L"
     },
-    "CSE370-17": {
+    {
+        "id": "CSE370-17",
         "Initial": "MTT",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -3662,7 +4069,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12D-27L"
     },
-    "CSE370-18": {
+    {
+        "id": "CSE370-18",
         "Initial": "MTT",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -3671,7 +4079,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09E-22L"
     },
-    "CSE370-19": {
+    {
+        "id": "CSE370-19",
         "Initial": "ABRF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -3680,7 +4089,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12D-27L"
     },
-    "CSE370-20": {
+    {
+        "id": "CSE370-20",
         "Initial": "ABRF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -3689,7 +4099,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12F-31L"
     },
-    "CSE370-21": {
+    {
+        "id": "CSE370-21",
         "Initial": "WLV",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -3698,7 +4109,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-27L"
     },
-    "CSE370-22": {
+    {
+        "id": "CSE370-22",
         "Initial": "SJM",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -3707,7 +4119,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-26L"
     },
-    "CSE391-01": {
+    {
+        "id": "CSE391-01",
         "Initial": "XXX",
         "Theory-Day": "FRI",
         "Theory-Start-Time": "12:30 PM",
@@ -3716,7 +4129,8 @@
         "Lab-Time": "11:00 AM+2:00 PM",
         "Lab-Room": "12F-31L+12F-31L"
     },
-    "CSE402-01": {
+    {
+        "id": "CSE402-01",
         "Initial": "SDAS",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -3725,7 +4139,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10G-32L"
     },
-    "CSE420-01": {
+    {
+        "id": "CSE420-01",
         "Initial": "MNY",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -3734,7 +4149,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-32L"
     },
-    "CSE420-02": {
+    {
+        "id": "CSE420-02",
         "Initial": "SZD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -3743,7 +4159,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-32L"
     },
-    "CSE420-03": {
+    {
+        "id": "CSE420-03",
         "Initial": "SZD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -3752,7 +4169,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-32L"
     },
-    "CSE420-04": {
+    {
+        "id": "CSE420-04",
         "Initial": "ABRF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -3761,7 +4179,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-32L"
     },
-    "CSE420-05": {
+    {
+        "id": "CSE420-05",
         "Initial": "AWBS",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -3770,7 +4189,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-33L"
     },
-    "CSE420-06": {
+    {
+        "id": "CSE420-06",
         "Initial": "SUE",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -3779,7 +4199,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-33L"
     },
-    "CSE420-07": {
+    {
+        "id": "CSE420-07",
         "Initial": "SUE",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -3788,7 +4209,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-26L"
     },
-    "CSE420-08": {
+    {
+        "id": "CSE420-08",
         "Initial": "FMK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -3797,7 +4219,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-26L"
     },
-    "CSE421-01": {
+    {
+        "id": "CSE421-01",
         "Initial": "ARF",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -3806,7 +4229,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-25L"
     },
-    "CSE421-02": {
+    {
+        "id": "CSE421-02",
         "Initial": "ARF",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -3815,7 +4239,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-25L"
     },
-    "CSE421-03": {
+    {
+        "id": "CSE421-03",
         "Initial": "SULT",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -3824,7 +4249,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-25L"
     },
-    "CSE421-04": {
+    {
+        "id": "CSE421-04",
         "Initial": "SULT",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -3833,7 +4259,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-25L"
     },
-    "CSE421-05": {
+    {
+        "id": "CSE421-05",
         "Initial": "MSMA",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -3842,7 +4269,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12D-27L"
     },
-    "CSE421-06": {
+    {
+        "id": "CSE421-06",
         "Initial": "MSMA",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -3851,7 +4279,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12D-27L"
     },
-    "CSE421-07": {
+    {
+        "id": "CSE421-07",
         "Initial": "MZG",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -3860,7 +4289,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12D-27L"
     },
-    "CSE421-08": {
+    {
+        "id": "CSE421-08",
         "Initial": "TSD",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -3869,7 +4299,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12D-27L"
     },
-    "CSE421-09": {
+    {
+        "id": "CSE421-09",
         "Initial": "NDT",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -3878,7 +4309,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09E-22L"
     },
-    "CSE421-10": {
+    {
+        "id": "CSE421-10",
         "Initial": "AKTD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -3887,7 +4319,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12D-27L"
     },
-    "CSE421-11": {
+    {
+        "id": "CSE421-11",
         "Initial": "AKTD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -3896,7 +4329,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12D-27L"
     },
-    "CSE421-12": {
+    {
+        "id": "CSE421-12",
         "Initial": "SRJ",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -3905,7 +4339,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-32L"
     },
-    "CSE421-13": {
+    {
+        "id": "CSE421-13",
         "Initial": "SRJ",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -3914,7 +4349,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-32L"
     },
-    "CSE421-14": {
+    {
+        "id": "CSE421-14",
         "Initial": "SKZ",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -3923,7 +4359,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12D-27L"
     },
-    "CSE421-15": {
+    {
+        "id": "CSE421-15",
         "Initial": "SKZ",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -3932,7 +4369,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12D-27L"
     },
-    "CSE421-16": {
+    {
+        "id": "CSE421-16",
         "Initial": "SKZ",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -3941,7 +4379,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09E-22L"
     },
-    "CSE421-17": {
+    {
+        "id": "CSE421-17",
         "Initial": "FDC",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -3950,7 +4389,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12D-27L"
     },
-    "CSE421-18": {
+    {
+        "id": "CSE421-18",
         "Initial": "FDC",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -3959,7 +4399,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12D-27L"
     },
-    "CSE422-01": {
+    {
+        "id": "CSE422-01",
         "Initial": "SWG",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -3968,7 +4409,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-34L"
     },
-    "CSE422-02": {
+    {
+        "id": "CSE422-02",
         "Initial": "SWG",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -3977,7 +4419,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10E-27L"
     },
-    "CSE422-03": {
+    {
+        "id": "CSE422-03",
         "Initial": "SWK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -3986,7 +4429,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-24L"
     },
-    "CSE422-04": {
+    {
+        "id": "CSE422-04",
         "Initial": "RRH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -3995,7 +4439,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10G-34L"
     },
-    "CSE422-05": {
+    {
+        "id": "CSE422-05",
         "Initial": "RRH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -4004,7 +4449,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10G-34L"
     },
-    "CSE422-06": {
+    {
+        "id": "CSE422-06",
         "Initial": "TRZ",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -4013,7 +4459,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10G-34L"
     },
-    "CSE422-07": {
+    {
+        "id": "CSE422-07",
         "Initial": "TRZ",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -4022,7 +4469,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10G-34L"
     },
-    "CSE422-08": {
+    {
+        "id": "CSE422-08",
         "Initial": "TRZ",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -4031,7 +4479,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-27L"
     },
-    "CSE422-09": {
+    {
+        "id": "CSE422-09",
         "Initial": "ZHS",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -4040,7 +4489,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10E-27L"
     },
-    "CSE422-10": {
+    {
+        "id": "CSE422-10",
         "Initial": "ZHS",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -4049,7 +4499,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10E-27L"
     },
-    "CSE422-11": {
+    {
+        "id": "CSE422-11",
         "Initial": "ZHS",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -4058,7 +4509,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10G-34L"
     },
-    "CSE422-12": {
+    {
+        "id": "CSE422-12",
         "Initial": "SWK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -4067,7 +4519,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-24L"
     },
-    "CSE422-13": {
+    {
+        "id": "CSE422-13",
         "Initial": "IBU",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -4076,7 +4529,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-34L"
     },
-    "CSE422-14": {
+    {
+        "id": "CSE422-14",
         "Initial": "JMA",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -4085,7 +4539,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10G-32L"
     },
-    "CSE422-15": {
+    {
+        "id": "CSE422-15",
         "Initial": "JMA",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -4094,7 +4549,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10G-32L"
     },
-    "CSE422-16": {
+    {
+        "id": "CSE422-16",
         "Initial": "SWK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -4103,7 +4559,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-24L"
     },
-    "CSE422-17": {
+    {
+        "id": "CSE422-17",
         "Initial": "IBU",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -4112,7 +4569,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10G-34L"
     },
-    "CSE422-18": {
+    {
+        "id": "CSE422-18",
         "Initial": "IBU",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -4121,7 +4579,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-34L"
     },
-    "CSE422-19": {
+    {
+        "id": "CSE422-19",
         "Initial": "RZR",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -4130,7 +4589,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "09F-27L"
     },
-    "CSE422-20": {
+    {
+        "id": "CSE422-20",
         "Initial": "NFF",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -4139,7 +4599,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-30L"
     },
-    "CSE422-21": {
+    {
+        "id": "CSE422-21",
         "Initial": "PLN",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -4148,7 +4609,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12D-27L"
     },
-    "CSE422-22": {
+    {
+        "id": "CSE422-22",
         "Initial": "RZR",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -4157,7 +4619,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09B-11L"
     },
-    "CSE422-23": {
+    {
+        "id": "CSE422-23",
         "Initial": "CBRD",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -4166,7 +4629,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12D-27L"
     },
-    "CSE423-01": {
+    {
+        "id": "CSE423-01",
         "Initial": "SRU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -4175,7 +4639,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-33L"
     },
-    "CSE423-02": {
+    {
+        "id": "CSE423-02",
         "Initial": "SRU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -4184,7 +4649,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-33L"
     },
-    "CSE423-03": {
+    {
+        "id": "CSE423-03",
         "Initial": "SRU",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -4193,7 +4659,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12F-32L"
     },
-    "CSE423-04": {
+    {
+        "id": "CSE423-04",
         "Initial": "TMD",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -4202,7 +4669,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-32L"
     },
-    "CSE423-05": {
+    {
+        "id": "CSE423-05",
         "Initial": "TMD",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -4211,7 +4679,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-32L"
     },
-    "CSE423-06": {
+    {
+        "id": "CSE423-06",
         "Initial": "AJA",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -4220,7 +4689,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-30L"
     },
-    "CSE423-07": {
+    {
+        "id": "CSE423-07",
         "Initial": "AJA",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -4229,7 +4699,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-30L"
     },
-    "CSE423-08": {
+    {
+        "id": "CSE423-08",
         "Initial": "AJA",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -4238,7 +4709,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12F-32L"
     },
-    "CSE423-09": {
+    {
+        "id": "CSE423-09",
         "Initial": "TAZD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -4247,7 +4719,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12F-32L"
     },
-    "CSE423-10": {
+    {
+        "id": "CSE423-10",
         "Initial": "TAZD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -4256,7 +4729,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12F-32L"
     },
-    "CSE423-11": {
+    {
+        "id": "CSE423-11",
         "Initial": "SBDK",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -4265,7 +4739,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12F-32L"
     },
-    "CSE423-12": {
+    {
+        "id": "CSE423-12",
         "Initial": "SBDK",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -4274,7 +4749,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12F-32L"
     },
-    "CSE423-13": {
+    {
+        "id": "CSE423-13",
         "Initial": "MZFZ",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -4283,7 +4759,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09E-21L"
     },
-    "CSE423-14": {
+    {
+        "id": "CSE423-14",
         "Initial": "MZFZ",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -4292,7 +4769,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09E-21L"
     },
-    "CSE423-15": {
+    {
+        "id": "CSE423-15",
         "Initial": "ANT",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -4301,7 +4779,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12F-31L"
     },
-    "CSE423-16": {
+    {
+        "id": "CSE423-16",
         "Initial": "NMP",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -4310,7 +4789,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12F-31L"
     },
-    "CSE423-17": {
+    {
+        "id": "CSE423-17",
         "Initial": "NMP",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -4319,7 +4799,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10E-27L"
     },
-    "CSE423-18": {
+    {
+        "id": "CSE423-18",
         "Initial": "SMUR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -4328,7 +4809,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10E-27L"
     },
-    "CSE424-01": {
+    {
+        "id": "CSE424-01",
         "Initial": "AAR",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -4337,7 +4819,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10E-27L"
     },
-    "CSE424-02": {
+    {
+        "id": "CSE424-02",
         "Initial": "SBHN",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -4346,7 +4829,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10E-27L"
     },
-    "CSE425-01": {
+    {
+        "id": "CSE425-01",
         "Initial": "MMM",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -4355,7 +4839,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE425-02": {
+    {
+        "id": "CSE425-02",
         "Initial": "MMM",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -4364,7 +4849,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE425-03": {
+    {
+        "id": "CSE425-03",
         "Initial": "MMM",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -4373,7 +4859,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE426-01": {
+    {
+        "id": "CSE426-01",
         "Initial": "FHZ",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -4382,7 +4869,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE427-01": {
+    {
+        "id": "CSE427-01",
         "Initial": "CMR",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -4391,7 +4879,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10E-27L"
     },
-    "CSE427-02": {
+    {
+        "id": "CSE427-02",
         "Initial": "CMR",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -4400,7 +4889,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-24L"
     },
-    "CSE427-03": {
+    {
+        "id": "CSE427-03",
         "Initial": "CMR",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -4409,7 +4899,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09B-09L"
     },
-    "CSE428-01": {
+    {
+        "id": "CSE428-01",
         "Initial": "RRH",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -4418,7 +4909,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12F-30L"
     },
-    "CSE428-02": {
+    {
+        "id": "CSE428-02",
         "Initial": "SDQ",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -4427,7 +4919,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12D-27L"
     },
-    "CSE437-01": {
+    {
+        "id": "CSE437-01",
         "Initial": "GRA",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -4436,7 +4929,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE437-02": {
+    {
+        "id": "CSE437-02",
         "Initial": "GRA",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -4445,7 +4939,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE437-03": {
+    {
+        "id": "CSE437-03",
         "Initial": "NFF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -4454,7 +4949,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE440-01": {
+    {
+        "id": "CSE440-01",
         "Initial": "FYS",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -4463,7 +4959,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-24L"
     },
-    "CSE440-02": {
+    {
+        "id": "CSE440-02",
         "Initial": "FYS",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -4472,7 +4969,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-24L"
     },
-    "CSE440-03": {
+    {
+        "id": "CSE440-03",
         "Initial": "FYS",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -4481,7 +4979,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-24L"
     },
-    "CSE446-01": {
+    {
+        "id": "CSE446-01",
         "Initial": "SDF",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -4490,7 +4989,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12D-27L"
     },
-    "CSE447-01": {
+    {
+        "id": "CSE447-01",
         "Initial": "MIH",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -4499,7 +4999,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12D-27L"
     },
-    "CSE449-01": {
+    {
+        "id": "CSE449-01",
         "Initial": "AAR",
         "Theory-Day": "SUN+SUN",
         "Theory-Start-Time": "2:00 PM+3:30 PM",
@@ -4508,7 +5009,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE460-01": {
+    {
+        "id": "CSE460-01",
         "Initial": "THL",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -4517,7 +5019,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "09F-25L"
     },
-    "CSE460-02": {
+    {
+        "id": "CSE460-02",
         "Initial": "PMD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -4526,7 +5029,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-25L"
     },
-    "CSE460-03": {
+    {
+        "id": "CSE460-03",
         "Initial": "RAS",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -4535,7 +5039,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10G-33L"
     },
-    "CSE460-04": {
+    {
+        "id": "CSE460-04",
         "Initial": "PMD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -4544,7 +5049,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-31L"
     },
-    "CSE460-05": {
+    {
+        "id": "CSE460-05",
         "Initial": "UPM",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -4553,7 +5059,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12F-31L"
     },
-    "CSE460-06": {
+    {
+        "id": "CSE460-06",
         "Initial": "YAP",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -4562,7 +5069,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10G-33L"
     },
-    "CSE460-07": {
+    {
+        "id": "CSE460-07",
         "Initial": "KFP",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -4571,7 +5079,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-31L"
     },
-    "CSE460-08": {
+    {
+        "id": "CSE460-08",
         "Initial": "AGS",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "11:00 AM",
@@ -4580,7 +5089,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-31L"
     },
-    "CSE461-01": {
+    {
+        "id": "CSE461-01",
         "Initial": "RDW",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -4589,7 +5099,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10G-33L"
     },
-    "CSE461-02": {
+    {
+        "id": "CSE461-02",
         "Initial": "KHR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -4598,7 +5109,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10G-33L"
     },
-    "CSE461-03": {
+    {
+        "id": "CSE461-03",
         "Initial": "KHR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -4607,7 +5119,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-33L"
     },
-    "CSE461-04": {
+    {
+        "id": "CSE461-04",
         "Initial": "KHR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "12:30 PM",
@@ -4616,7 +5129,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10G-33L"
     },
-    "CSE461-05": {
+    {
+        "id": "CSE461-05",
         "Initial": "TOKD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -4625,7 +5139,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10G-33L"
     },
-    "CSE461-06": {
+    {
+        "id": "CSE461-06",
         "Initial": "TOKD",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -4634,7 +5149,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-32L"
     },
-    "CSE461-07": {
+    {
+        "id": "CSE461-07",
         "Initial": "HAS",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -4643,7 +5159,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10G-33L"
     },
-    "CSE463-01": {
+    {
+        "id": "CSE463-01",
         "Initial": "ASA",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -4652,7 +5169,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12D-27L"
     },
-    "CSE470-01": {
+    {
+        "id": "CSE470-01",
         "Initial": "FZN",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "8:00 AM",
@@ -4661,7 +5179,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-02": {
+    {
+        "id": "CSE470-02",
         "Initial": "FZN",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -4670,7 +5189,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-03": {
+    {
+        "id": "CSE470-03",
         "Initial": "FZN",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -4679,7 +5199,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-04": {
+    {
+        "id": "CSE470-04",
         "Initial": "SHRR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -4688,7 +5209,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-05": {
+    {
+        "id": "CSE470-05",
         "Initial": "SHRR",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -4697,7 +5219,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-06": {
+    {
+        "id": "CSE470-06",
         "Initial": "KZMN",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -4706,7 +5229,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-07": {
+    {
+        "id": "CSE470-07",
         "Initial": "KZMN",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -4715,7 +5239,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-08": {
+    {
+        "id": "CSE470-08",
         "Initial": "PML",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "9:30 AM",
@@ -4724,7 +5249,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-09": {
+    {
+        "id": "CSE470-09",
         "Initial": "AHF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -4733,7 +5259,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-10": {
+    {
+        "id": "CSE470-10",
         "Initial": "AHF",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -4742,7 +5269,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-11": {
+    {
+        "id": "CSE470-11",
         "Initial": "TJW",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -4751,7 +5279,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-12": {
+    {
+        "id": "CSE470-12",
         "Initial": "NQM",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "12:30 PM",
@@ -4760,7 +5289,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-13": {
+    {
+        "id": "CSE470-13",
         "Initial": "RHD",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "2:00 PM",
@@ -4769,7 +5299,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-14": {
+    {
+        "id": "CSE470-14",
         "Initial": "RHD",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "3:30 PM",
@@ -4778,7 +5309,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-15": {
+    {
+        "id": "CSE470-15",
         "Initial": "RHD",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -4787,7 +5319,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-16": {
+    {
+        "id": "CSE470-16",
         "Initial": "ART",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "8:00 AM",
@@ -4796,7 +5329,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-17": {
+    {
+        "id": "CSE470-17",
         "Initial": "PML",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -4805,7 +5339,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE470-18": {
+    {
+        "id": "CSE470-18",
         "Initial": "AWK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "12:30 PM",
@@ -4814,7 +5349,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE471-01": {
+    {
+        "id": "CSE471-01",
         "Initial": "AQU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -4823,7 +5359,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-32L"
     },
-    "CSE471-02": {
+    {
+        "id": "CSE471-02",
         "Initial": "AQU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -4832,7 +5369,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10E-27L"
     },
-    "CSE471-03": {
+    {
+        "id": "CSE471-03",
         "Initial": "MHDE",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "11:00 AM",
@@ -4841,7 +5379,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-30L"
     },
-    "CSE471-04": {
+    {
+        "id": "CSE471-04",
         "Initial": "MHDE",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "2:00 PM",
@@ -4850,7 +5389,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12F-30L"
     },
-    "CSE471-05": {
+    {
+        "id": "CSE471-05",
         "Initial": "NZU",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -4859,7 +5399,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "12F-30L"
     },
-    "CSE471-06": {
+    {
+        "id": "CSE471-06",
         "Initial": "MIH",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -4868,7 +5409,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12F-31L"
     },
-    "CSE471-07": {
+    {
+        "id": "CSE471-07",
         "Initial": "MIH",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -4877,7 +5419,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "10G-32L"
     },
-    "CSE471-08": {
+    {
+        "id": "CSE471-08",
         "Initial": "MIH",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "9:30 AM",
@@ -4886,7 +5429,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12F-30L"
     },
-    "CSE471-09": {
+    {
+        "id": "CSE471-09",
         "Initial": "NZU",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "9:30 AM",
@@ -4895,7 +5439,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "12D-27L"
     },
-    "CSE471-10": {
+    {
+        "id": "CSE471-10",
         "Initial": "AQU",
         "Theory-Day": "SUN+TUE",
         "Theory-Start-Time": "11:00 AM",
@@ -4904,7 +5449,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10G-32L"
     },
-    "CSE471-12": {
+    {
+        "id": "CSE471-12",
         "Initial": "AOH",
         "Theory-Day": "SAT+THU",
         "Theory-Start-Time": "3:30 PM",
@@ -4913,7 +5459,8 @@
         "Lab-Time": "2:00 PM",
         "Lab-Room": "09F-24L"
     },
-    "CSE471-13": {
+    {
+        "id": "CSE471-13",
         "Initial": "AJK",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -4922,7 +5469,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "12F-32L"
     },
-    "CSE481-01": {
+    {
+        "id": "CSE481-01",
         "Initial": "SDS",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "3:30 PM",
@@ -4931,7 +5479,8 @@
         "Lab-Time": "8:00 AM",
         "Lab-Room": "10E-27L"
     },
-    "CSE482-01": {
+    {
+        "id": "CSE482-01",
         "Initial": "JMD",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "8:00 AM",
@@ -4940,7 +5489,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10G-32L"
     },
-    "CSE489-01": {
+    {
+        "id": "CSE489-01",
         "Initial": "XXX",
         "Theory-Day": "FRI",
         "Theory-Start-Time": "12:30 PM",
@@ -4949,7 +5499,8 @@
         "Lab-Time": "2:00 PM+11:00 AM",
         "Lab-Room": "12F-31L+12F-31L"
     },
-    "CSE490-01": {
+    {
+        "id": "CSE490-01",
         "Initial": "SDAS",
         "Theory-Day": "MON+WED",
         "Theory-Start-Time": "2:00 PM",
@@ -4958,7 +5509,8 @@
         "Lab-Time": "11:00 AM",
         "Lab-Room": "10G-32L"
     },
-    "CSE708-01": {
+    {
+        "id": "CSE708-01",
         "Initial": "KYK",
         "Theory-Day": "MON+MON",
         "Theory-Start-Time": "6:00 PM+7:30 PM",
@@ -4967,7 +5519,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE710-01": {
+    {
+        "id": "CSE710-01",
         "Initial": "GRA",
         "Theory-Day": "SAT+SAT",
         "Theory-Start-Time": "6:00 PM+7:30 PM",
@@ -4976,7 +5529,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE711-01": {
+    {
+        "id": "CSE711-01",
         "Initial": "GRA",
         "Theory-Day": "MON+MON",
         "Theory-Start-Time": "6:00 PM+7:30 PM",
@@ -4985,7 +5539,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE713-01": {
+    {
+        "id": "CSE713-01",
         "Initial": "AAR",
         "Theory-Day": "SUN+SUN",
         "Theory-Start-Time": "6:00 PM+7:30 PM",
@@ -4994,7 +5549,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE715-01": {
+    {
+        "id": "CSE715-01",
         "Initial": "MMM",
         "Theory-Day": "SAT+SAT",
         "Theory-Start-Time": "6:00 PM+7:30 PM",
@@ -5003,7 +5559,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE717-01": {
+    {
+        "id": "CSE717-01",
         "Initial": "KYK",
         "Theory-Day": "TUE+TUE",
         "Theory-Start-Time": "6:00 PM+7:30 PM",
@@ -5012,7 +5569,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE720-01": {
+    {
+        "id": "CSE720-01",
         "Initial": "ASA",
         "Theory-Day": "WED+WED",
         "Theory-Start-Time": "6:00 PM+7:30 PM",
@@ -5021,7 +5579,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE721-01": {
+    {
+        "id": "CSE721-01",
         "Initial": "SDF",
         "Theory-Day": "SAT+SAT",
         "Theory-Start-Time": "2:00 PM+3:30 PM",
@@ -5030,7 +5589,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE731-01": {
+    {
+        "id": "CSE731-01",
         "Initial": "JNM",
         "Theory-Day": "SAT+SAT",
         "Theory-Start-Time": "2:00 PM+3:30 PM",
@@ -5039,7 +5599,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE741-01": {
+    {
+        "id": "CSE741-01",
         "Initial": "JNM",
         "Theory-Day": "SAT+SAT",
         "Theory-Start-Time": "6:00 PM+7:30 PM",
@@ -5048,7 +5609,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE751-01": {
+    {
+        "id": "CSE751-01",
         "Initial": "FYS",
         "Theory-Day": "TUE+TUE",
         "Theory-Start-Time": "6:00 PM+7:30 PM",
@@ -5057,7 +5619,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "CSE761-01": {
+    {
+        "id": "CSE761-01",
         "Initial": "GRA",
         "Theory-Day": "THU+THU",
         "Theory-Start-Time": "6:00 PM+7:30 PM",
@@ -5066,7 +5629,8 @@
         "Lab-Time": null,
         "Lab-Room": null
     },
-    "EEE362-01": {
+    {
+        "id": "EEE362-01",
         "Initial": "XXX",
         "Theory-Day": "FRI",
         "Theory-Start-Time": "11:00 AM",
@@ -5075,4 +5639,4 @@
         "Lab-Time": null,
         "Lab-Room": null
     }
-}
+]

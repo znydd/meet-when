@@ -19,10 +19,16 @@ df = df.rename(columns={
 df=df.iloc[1:].reset_index(drop=True)
 
 df_cleaned = df.where(pd.notna(df), None)
+result = []
+for index, row in df_cleaned.iterrows():
+    record = {'id': row['Course-Section']}
+    for col in df_cleaned.columns:
+        if col != 'Course-Section':
+            record[col] = row[col]
+    result.append(record)
 
-result2 = df_cleaned.groupby('Course-Section').apply(lambda x: x.drop('Course-Section', axis=1).to_dict(orient='records')[0]).to_dict()
-json_output2 = json.dumps(result2, indent=4)
-print(json_output2)
+json_output = json.dumps(result, indent=4)
+print(json_output)
 
-with open('routine.json', 'w') as f:
-    json.dump(result2, f, indent=4)
+with open('output2.json', 'w') as f:
+    json.dump(result, f, indent=4)
