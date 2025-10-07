@@ -6,9 +6,11 @@ function App() {
 
   return (
     <>
+    <div className=" max-h-full">
     <Navbar/>
     <Days/>
     <Routine/>
+    </div>
     </>
   )
 }
