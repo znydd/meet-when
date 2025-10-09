@@ -1,23 +1,49 @@
 import { useState } from "react";
+import { type CourseRoutine } from '../utils/interfaces'
 
-function AddRoutineForm({ courseNo, getRoutine }: { courseNo: number, getRoutine: (courseRoutine: string) => void }) {
+
+function AddRoutineForm({ courseNo, getRoutine }: { courseNo: number, getRoutine: (courseRoutine: CourseRoutine) => void }) {
 
     const Course: string[] = ["Course 1", "Course 2", "Course 3", "Course 4"]
-    const Days: string[] = ["SAT-MON", "SUN-TUE", "MON-WED", "TUE-THU", "THU-SAT"];
-    const Day: string[] = ["SAT", "SUN", "MON", "TUE", "WED", "THU"];
-    const Slots: string[] = ["08:00-09:20", "09:30-10:50", "11:00-12:20", "12:30-01:50", "02:00-03:20", "03:30-04:50"]
-    const LabSlots: string[] = ["08:00-10:50", "11:00-01:50", "02:00-04:50"]
+    const Days: CourseRoutine['courseDay'][] = ["SAT-MON", "SUN-TUE", "MON-WED", "TUE-THU", "THU-SAT"];
+    const Slots: CourseRoutine['courseSlot'][] = ["08:00-09:20", "09:30-10:50", "11:00-12:20", "12:30-01:50", "02:00-03:20", "03:30-04:50"]
+    const Day: CourseRoutine['labDay'][] = ["SAT", "SUN", "MON", "TUE", "WED", "THU"];
+    const LabSlots: CourseRoutine['labTime'][] = ["08:00-10:50", "11:00-01:50", "02:00-04:50"]
 
 
     const [course, setCourse] = useState<string>("");
-    const [day, setDay] = useState<string>("");
-    const [time, setTime] = useState<string>("");
-    const [hasLab, setHasLab] = useState<boolean>(false)
-    const [labDay, setLabDay] = useState<string>("");
-    const [labTime, setLabTime] = useState<string>("");
+    const [day, setDay] = useState<CourseRoutine['courseDay']>("SAT-MON");
+    const [time, setTime] = useState<CourseRoutine['courseSlot']>("08:00-09:20");
+    const [hasLab, setHasLab] = useState<CourseRoutine['hasLab']>(false)
+    const [labDay, setLabDay] = useState<CourseRoutine['labDay']>("SAT");
+    const [labTime, setLabTime] = useState<CourseRoutine['labTime']>("08:00-10:50");
 
     const handleAddRoutine = () => {
-        getRoutine(course + day + time + hasLab + labTime)
+        if (hasLab) {
+            const routine: CourseRoutine = {
+                courseCode: course,
+                courseDay: day,
+                courseSlot: time,
+                hasLab: hasLab,
+                labDay: labDay,
+                labTime: labTime
+            }
+            getRoutine(routine)
+        } else {
+            const routine: CourseRoutine = {
+                courseCode: course,
+                courseDay: day,
+                courseSlot: time,
+                hasLab: hasLab,
+            }
+            getRoutine(routine)
+        }
+        setCourse("")
+        setDay("SAT-MON")
+        setTime("08:00-09:20")
+        setHasLab(false)
+        setLabDay("SAT")
+        setLabTime("08:00-10:50")
     }
 
 
@@ -43,7 +69,7 @@ function AddRoutineForm({ courseNo, getRoutine }: { courseNo: number, getRoutine
                         <select
                             id="Day"
                             value={day}
-                            onChange={(e) => setDay(e.target.value)}
+                            onChange={(e) => setDay(e.target.value as CourseRoutine['courseDay'])}
                             className=" w-full border border-gray-300 rounded-lg px-4 py-2 bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
                         >
                             {Days.map((day, index) => (
@@ -56,7 +82,7 @@ function AddRoutineForm({ courseNo, getRoutine }: { courseNo: number, getRoutine
                         <select
                             id="Time"
                             value={time}
-                            onChange={(e) => setTime(e.target.value)}
+                            onChange={(e) => setTime(e.target.value as CourseRoutine['courseSlot'])}
                             className=" w-full border border-gray-300 rounded-lg px-4 py-2 bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
                         >
                             {Slots.map((slot, index) => (
@@ -94,7 +120,7 @@ function AddRoutineForm({ courseNo, getRoutine }: { courseNo: number, getRoutine
                             <select
                                 id="Day"
                                 value={labDay}
-                                onChange={(e) => setLabDay(e.target.value)}
+                                onChange={(e) => setLabDay(e.target.value as CourseRoutine['labDay'])}
                                 className=" w-full border border-gray-300 rounded-lg px-4 py-2 bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
                             >
                                 {Day.map((day, index) => (
@@ -107,7 +133,7 @@ function AddRoutineForm({ courseNo, getRoutine }: { courseNo: number, getRoutine
                             <select
                                 id="Time"
                                 value={labTime}
-                                onChange={(e) => setLabTime(e.target.value)}
+                                onChange={(e) => setLabTime(e.target.value as CourseRoutine['labTime'])}
                                 className=" w-full border border-gray-300 rounded-lg px-4 py-2 bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
                             >
                                 {LabSlots.map((slot, index) => (
@@ -118,7 +144,7 @@ function AddRoutineForm({ courseNo, getRoutine }: { courseNo: number, getRoutine
                     </div>
                 }
                 <button
-                    className="w-full bg-blue-600 text-white mt-2 py-2 rounded hover:bg-blue-700 transition"
+                    className="w-full bg-blue-600 text-white mt-4 py-2 rounded hover:bg-blue-700 transition"
                     onClick={() => handleAddRoutine()}
                 >
                     {courseNo === 3 ? "Generate" : "Next"}

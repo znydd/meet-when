@@ -1,26 +1,47 @@
 import { useState } from "react";
 import AddRoutineForm from "./AddRoutineForm";
+import { type Person, type CourseRoutine } from '../utils/interfaces'
+import { addPerson } from "../utils/db";
 
 function AddRoutine({ addRoutine }: { addRoutine: (isClicked: boolean) => void }) {
 
     const [who, setWho] = useState<"Self" | "Friend">("Self");
-    const [routine, setRoutine] = useState<string[]>([])
+    const [routine, setRoutine] = useState<CourseRoutine[]>([])
+    // const [personToSave, setPersonToSave] = useState<Person | null>(null)
     const [idx, setIdx] = useState<number>(0)
     const [showWho, setShowWho] = useState<boolean>(true);
 
-    const saveRoutine = (courseRoutine: string) => {
-        setRoutine([...routine, courseRoutine])
-        const newRoutine = [...routine, courseRoutine];
-
+    async function savePerson(personToSave: Person) {
+        console.log(personToSave)
+        const id: number = await addPerson(personToSave)
+        console.log(id)
+    }
+    const saveRoutine = (courseRoutine: CourseRoutine) => {
+        setRoutine(prevRoutine => [...prevRoutine, courseRoutine])
         setIdx((idx) => idx + 1)
-        console.log(courseRoutine)
-        console.log(newRoutine)
-        if (idx === 3) {
-            addRoutine(false);
-        }
+
+        // console.log(courseRoutine)
+        // console.log(routine)
+
+        const updatedRoutine: CourseRoutine[] = [...routine, courseRoutine]
+        console.log(updatedRoutine)
+
         if (idx === 0) {
             setShowWho(false)
         }
+        else if (idx === 3) {
+            const personToSave: Person = {
+                name: who,
+                course1: updatedRoutine[0],
+                course2: updatedRoutine[1],
+                course3: updatedRoutine[2],
+                course4: updatedRoutine[3],
+            }
+            console.log(personToSave)
+            savePerson(personToSave)
+            addRoutine(false);
+        }
+
 
     }
 
@@ -60,7 +81,9 @@ function AddRoutine({ addRoutine }: { addRoutine: (isClicked: boolean) => void }
                         </label>
                     </div>
                 </div >}
-                <AddRoutineForm courseNo={idx} getRoutine={saveRoutine} />
+                {who === 'Self' &&
+                    <AddRoutineForm courseNo={idx} getRoutine={saveRoutine} />
+                }
             </div >
         </>
     )
