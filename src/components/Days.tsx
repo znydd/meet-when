@@ -1,15 +1,34 @@
-function Days(){
+function Days() {
     const week: string[] = ["SAT", "SUN", "MON", "TUE", "WED", "THU"];
 
-    return(
+    return (
         <>
-        <div className="flex content-center justify-between border-2 my-8 mx-1.5  ">
-            {week.map((day, index) => (
-                <div className=" text-center p-1.5 border-2" key={index}>
-                    {day}
-                </div>
-            ))}
-        </div>
+            <div className="flex content-center border rounded-lg mt-4 mb-2 mx-2 ">
+
+                {week.map((day, index) => {
+                    if (index == 0) {
+                        return (
+                            <div key={index} className="text-center p-4 xs:p-2 border w-1/6 rounded-l-lg">
+                                {day}
+                            </div>
+                        )
+                    } else if (index == 5) {
+                        return (
+                            <div key={index} className="text-center p-4 xs:p-2 border w-1/6 rounded-r-lg">
+                                {day}
+                            </div>
+                        )
+                    } else {
+                        return (
+                            <div key={index} className="text-center p-4 xs:p-2 border w-1/6">
+                                {day}
+                            </div>
+
+                        )
+                    }
+                }
+                )}
+            </div>
         </>
     )
 
