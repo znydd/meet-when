@@ -1,9 +1,12 @@
+import { parseHtml } from "../lib/parseHtml";
+
 function PasteAsHtml() {
   // Function to handle the paste event
-  const handlePaste = (event: React.ClipboardEvent<HTMLDivElement>) => {
+  const handlePaste = async (event: React.ClipboardEvent<HTMLDivElement>) => {
     event.preventDefault();
     const htmlString: string = event.clipboardData.getData("text/html");
-    console.log(htmlString);
+    const parsedHtml = await parseHtml(htmlString);
+    console.log(parsedHtml);
   };
   return (
     <>
