@@ -1,12 +1,37 @@
 import { parseHtml } from "../lib/parseHtml";
+import { createUser, UserQueryError } from "../lib/dbQuery";
+import { useState } from "react";
 
 function PasteAsHtml() {
+  const [status, setStatus] = useState<{
+    message: string;
+    type: "success" | "error" | "";
+  }>({
+    message: "",
+    type: "",
+  });
   // Function to handle the paste event
   const handlePaste = async (event: React.ClipboardEvent<HTMLDivElement>) => {
     event.preventDefault();
     const htmlString: string = event.clipboardData.getData("text/html");
     const parsedHtml = await parseHtml(htmlString);
     console.log(parsedHtml);
+    try {
+      const createdUserName = await createUser(parsedHtml);
+      setStatus({
+        message: `User '${createdUserName}' was created!`,
+        type: "success",
+      });
+      console.log(status);
+    } catch (error) {
+      if (error instanceof UserQueryError) {
+        setStatus({ message: error.message, type: "error" });
+        console.log(error);
+        console.log(status);
+      } else {
+        setStatus({ message: "An unknown error occurred.", type: "error" });
+      }
+    }
   };
   return (
     <>
