@@ -1,4 +1,41 @@
-function InsertUserName() {
+import React, { useState } from "react";
+
+function InsertNameId({
+  onNameId,
+}: {
+  onNameId: (name: string, id: string) => void;
+}) {
+  const [name, setName] = useState<string>("");
+  const [studentId, setStudentId] = useState<string>("");
+  const [nameError, setNameError] = useState<boolean>(false);
+  const [idError, setIdError] = useState<boolean>(false);
+
+  const handleName = (event: React.ChangeEvent<HTMLInputElement>) => {
+    event.preventDefault();
+    if (event.target.value.length > 10 || event.target.value.length < 2) {
+      setNameError(true);
+    } else {
+      setNameError(false);
+      setName(event.target.value);
+    }
+  };
+  const handleStudentId = (event: React.ChangeEvent<HTMLInputElement>) => {
+    event.preventDefault();
+    if (event.target.value.length === 8) {
+      setIdError(false);
+    } else {
+      setIdError(true);
+      setStudentId(event.target.value);
+    }
+    console.log(parseInt(event.target.value));
+  };
+
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    // Handle form submission logic here
+    onNameId(name, studentId);
+  };
+
   return (
     <>
       <div className="mt-36">
@@ -20,16 +57,21 @@ function InsertUserName() {
         </svg>
       </div>
       <div className=" h-64 w-10/12 mt-36 p-4 max-w-[360px]  bg-[#ffffff] border-1 border-neutral-200 rounded-xl font-mono text-sm font-medium">
-        <form>
+        <form onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="username">User Name</label>
+            <label htmlFor="name">Name</label>
             <input
               className="w-full p-2 mt-1 border border-neutral-300 rounded-md shadow-sm"
               type="text"
-              id="userName"
-              name="username"
+              id="name"
+              name="name"
               placeholder="Bracu Chicken"
+              onChange={handleName}
+              required
             />
+            {nameError && (
+              <div className="text-red-500">Name should be 2-10 Characters</div>
+            )}
           </div>
           <div className=" mt-2">
             <label htmlFor="studentId">Student ID</label>
@@ -39,7 +81,12 @@ function InsertUserName() {
               id="studentId"
               name="studentid"
               placeholder="22101150"
+              onChange={handleStudentId}
+              required
             />
+            {idError && (
+              <div className="text-red-500">ID should be 8 digits</div>
+            )}
           </div>
           <button
             className="flex items-center justify-center w-full h-11 p-2 mt-8 border border-neutral-300 bg-neutral-900 rounded-md shadow-sm"
@@ -67,4 +114,4 @@ function InsertUserName() {
   );
 }
 
-export default InsertUserName;
+export default InsertNameId;
