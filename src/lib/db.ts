@@ -4,12 +4,12 @@ import { type User } from "../types/type";
 const db = new Dexie("meetWhenDB") as Dexie & {
   users: EntityTable<
     User, // The type of object to store (from types.ts)
-    "userName" // The primary key property ('userName' from the User interface)
+    "studentId" // The primary key property ('userName' from the User interface)
   >;
 };
 
 db.version(1).stores({
-  users: "userName",
+  users: "studentId",
 });
 
 export { db };

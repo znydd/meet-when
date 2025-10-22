@@ -16,19 +16,19 @@ export class UserQueryError extends Error {
  * @throws {UserQueryError} If the user object is invalid or the user already exists.
  */
 export async function createUser(user: User): Promise<string> {
-  if (!user || !user.userName) {
+  if (!user || !user.studentId) {
     throw new UserQueryError("User object is invalid or missing a userName.");
   }
 
   try {
     await db.users.add(user);
 
-    return user.userName;
+    return user.studentId;
   } catch (error) {
     if (error instanceof Error && error.name === "ConstraintError") {
       // Re-throw a more specific, user-friendly error for the component to catch
       throw new UserQueryError(
-        `A user with the name '${user.userName}' already exists.`,
+        `A user with the Student ID '${user.studentId}' already exists.`,
       );
     } else {
       console.error("Unexpected database error in createUser:", error);
@@ -45,14 +45,14 @@ export async function createUser(user: User): Promise<string> {
  * @param userName The unique name of the user to find.
  * @returns The User object if found, or undefined if not.
  */
-export async function getUser(userName: string): Promise<User | undefined> {
-  if (!userName) {
+export async function getUser(studentId: string): Promise<User | undefined> {
+  if (!studentId) {
     console.warn("getUser was called with no userName.");
     return undefined;
   }
 
   try {
-    return await db.users.get(userName);
+    return await db.users.get(studentId);
   } catch (error) {
     console.error("Unexpected database error in getUser:", error);
     return undefined;
