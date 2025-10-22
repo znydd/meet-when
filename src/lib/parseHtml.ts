@@ -1,6 +1,6 @@
-import { isDay, isTime, type EachDay, type User } from "../types/type";
+import { isDay, isTime, type EachDay } from "../types/type";
 
-export async function parseHtml(htmlString: string): Promise<User> {
+export async function parseHtml(htmlString: string): Promise<EachDay> {
   const parser = new DOMParser();
   const doc: Document = parser.parseFromString(htmlString, "text/html");
   const tableNodes: NodeListOf<HTMLTableElement> =
@@ -57,10 +57,5 @@ export async function parseHtml(htmlString: string): Promise<User> {
     });
   });
   // console.log(routine);
-  const user: User = {
-    userName: "Self",
-    routine: routine,
-  };
-
-  return user;
+  return routine;
 }
