@@ -1,3 +1,4 @@
+export type Status = "success" | "idle" | "failed";
 // Per Day focused
 export type Day =
   | "SATURDAY"
@@ -21,7 +22,8 @@ export type EachDay = {
   [key in Day]: [string, Time][];
 };
 export interface User {
-  userName: string;
+  name: string;
+  studentId: string;
   routine: EachDay;
 }
 
