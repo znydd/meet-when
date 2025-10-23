@@ -6,10 +6,15 @@ const db = new Dexie("meetWhenDB") as Dexie & {
     User, // The type of object to store (from types.ts)
     "studentId" // The primary key property ('userName' from the User interface)
   >;
+  admin: EntityTable<
+    User, // The type of object to store (from types.ts)
+    "studentId" // The primary key property ('userName' from the User interface)
+  >;
 };
 
 db.version(1).stores({
   users: "studentId",
+  admin: "studentId",
 });
 
 export { db };
