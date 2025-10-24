@@ -84,8 +84,8 @@ function ShowRoutine({ routine }: { routine: User }) {
 
   return (
     <>
-      <div className="flex flex-col  items-center bg-[#fafafa]">
-        <div className="flex content-center border rounded-lg shadow-sm bg-white mt-6 mb-4 w-11/12 min-w-xs max-w-lg h-14 font-sans  text-sm ">
+      <div className="flex flex-col pb-32  items-center bg-[#fafafa]">
+        <div className="flex sticky top-2 z-10 content-center border rounded-lg shadow-md bg-white mt-6 mb-4 w-11/12 min-w-xs max-w-lg h-14 font-sans  text-sm ">
           {week.map((day, index) => {
             if (index == 0) {
               return (
@@ -124,12 +124,18 @@ function ShowRoutine({ routine }: { routine: User }) {
         {slots.map((slot, index) => (
           <div
             key={index}
-            className=" flex flex-col h-28 w-11/12 border-1 border-neutral-600 rounded-t-xl rounded-b-lg mb-2 min-w-xs max-w-lg  bg-white"
+            className={`flex flex-col h-28 w-11/12 border-1 border-neutral-600 rounded-t-xl rounded-b-lg mb-2 min-w-xs max-w-lg ${restructuredRoutine[selectedDay][slot] ? "bg-rose-200 " : ""}`}
           >
-            <div className=" flex gap-6 px-3 py-1 bg-neutral-800 text-white rounded-t-lg text-sm xs:text-[16px]">
-              <div>{slot}</div>
-              <div className="">{restructuredRoutine[selectedDay][slot]}</div>
+            <div>
+              <div className=" flex gap-6 px-3 py-1 bg-neutral-800 text-white rounded-t-lg text-sm xs:text-[16px]">
+                <div>{slot}</div>
+                <div className="">{restructuredRoutine[selectedDay][slot]}</div>
+              </div>
             </div>
+
+            {restructuredRoutine[selectedDay][slot] && (
+              <div className="relative border-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed [--pattern-fg:var(--color-black)]/5 max-lg:h-66 max-lg:border-t lg:border-l dark:[--pattern-fg:var(--color-white)]/10"></div>
+            )}
           </div>
         ))}
       </div>
