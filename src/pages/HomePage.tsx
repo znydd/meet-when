@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import type { User } from "../types/type.ts";
 import { getAdmin } from "../lib/dbQuery";
 import { useNavigate } from "react-router";
+import FloatingNavBar from "../components/FloatingNavBar.tsx";
 
 function HomePage() {
   const navigate = useNavigate();
@@ -30,7 +31,10 @@ function HomePage() {
     <>
       <div className=" h-screen">
         {showRoutine && routine ? (
-          <ShowRoutine routine={routine} />
+          <div>
+            <ShowRoutine routine={routine} />
+            <FloatingNavBar />
+          </div>
         ) : (
           <InitialUserInput />
         )}
