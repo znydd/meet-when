@@ -84,7 +84,7 @@ function ShowRoutine({ routine }: { routine: User }) {
 
   return (
     <>
-      <div className="flex flex-col h-screen items-center bg-[#fafafa]">
+      <div className="flex flex-col  items-center bg-[#fafafa]">
         <div className="flex content-center border rounded-lg shadow-sm bg-white mt-6 mb-4 w-11/12 min-w-xs max-w-lg h-14 font-sans  text-sm ">
           {week.map((day, index) => {
             if (index == 0) {
@@ -126,8 +126,8 @@ function ShowRoutine({ routine }: { routine: User }) {
             key={index}
             className=" flex flex-col h-28 w-11/12 border-1 border-neutral-600 rounded-t-xl rounded-b-lg mb-2 min-w-xs max-w-lg  bg-white"
           >
-            <div className=" flex gap-8 px-3 py-1 bg-neutral-800 text-white rounded-t-lg text-sm xs:text-[16px]">
-              <div className=" w-[100px]">{slot}</div>
+            <div className=" flex gap-6 px-3 py-1 bg-neutral-800 text-white rounded-t-lg text-sm xs:text-[16px]">
+              <div>{slot}</div>
               <div className="">{restructuredRoutine[selectedDay][slot]}</div>
             </div>
           </div>

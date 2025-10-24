@@ -56,8 +56,11 @@ function InsertNameId({
           <path d="m6.804 9 10.392 6" />
         </svg>
       </div>
-      <div className=" h-64 w-10/12 mt-36 p-4 max-w-[360px]  bg-[#ffffff] border-1 border-neutral-200 rounded-xl font-mono text-sm font-medium">
-        <form onSubmit={handleSubmit}>
+      <div className="h-screen flex flex-col items-center justify-center">
+        <form
+          onSubmit={handleSubmit}
+          className="h-64 w-5/6 xs:w-full p-4  max-w-lg min-w-[300px]  bg-[#ffffff] border-1 border-neutral-200 rounded-xl font-mono text-sm font-medium"
+        >
           <div>
             <label htmlFor="name">Name</label>
             <input

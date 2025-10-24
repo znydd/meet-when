@@ -23,7 +23,7 @@ function PasteAsHtml({
   return (
     <>
       {/* 1. Parent container to position the layers */}
-      <div className="relative flex items-center justify-center max-w-sm [300px]:w-full w-10/12 mx-2 h-[300px] min-h-[150px]">
+      <div className="relative flex items-center justify-center max-w-lg [300px]:w-full w-10/12 mx-2 h-5/6 mb-8 min-h-[150px]">
         {/* 2. Visual Layer (Bottom) - Just for looks */}
         <div className="absolute inset-0 flex items-center justify-center border-1 border-solid border-neutral-200 shadow-sm shadow-neutral-200 bg-[#ffffff] rounded-lg">
           <svg
