@@ -5,6 +5,7 @@ import type { User, EachDay, Status } from "../types/type";
 import { createAdmin } from "../lib/dbQuery";
 import { useState } from "react";
 import { useNavigate } from "react-router";
+import { FaCircleCheck } from "react-icons/fa6";
 
 function InitialUserInput() {
   const navigate = useNavigate();
@@ -46,8 +47,9 @@ function InitialUserInput() {
     <>
       {statusModal === "show" && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-transparent bg-opacity-50 backdrop-blur-sm text-black">
-          <div className="text-center border showdow-sm bg-white px-14 py-10 rounded-lg">
-            Done
+          <div className="flex flex-col items-center justify-center  border shadow-sm bg-white px-14 py-10 rounded-lg">
+            <FaCircleCheck className="text-green-500 text-4xl " />
+            <p className="text-lg font-semibold">Done</p>
           </div>
         </div>
       )}
