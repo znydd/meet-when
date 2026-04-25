@@ -37,8 +37,8 @@ function InsertNameId({
   };
 
   return (
-    <>
-      <div className="mt-36">
+    <div className="w-full flex flex-col items-center px-4 pb-28">
+      <div className="mt-16 mb-8">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="50"
@@ -56,68 +56,66 @@ function InsertNameId({
           <path d="m6.804 9 10.392 6" />
         </svg>
       </div>
-      <div className="h-screen flex flex-col items-center justify-center">
-        <form
-          onSubmit={handleSubmit}
-          className="h-64 w-5/6 xs:w-full p-4  max-w-lg min-w-[300px]  bg-[#ffffff] border-1 border-neutral-200 rounded-xl font-mono text-sm font-medium"
+      <form
+        onSubmit={handleSubmit}
+        className="w-full max-w-lg min-w-[300px] bg-[#ffffff] border-1 border-neutral-200 rounded-xl p-4 font-mono text-sm font-medium"
+      >
+        <div>
+          <label htmlFor="name">Name</label>
+          <input
+            className="w-full p-2 mt-1 border border-neutral-300 rounded-md shadow-sm"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Bracu Chicken"
+            onChange={handleName}
+            required
+          />
+          {nameError && (
+            <div className="text-red-500">Name should be 2-10 Characters</div>
+          )}
+        </div>
+        <div className=" mt-2">
+          <label htmlFor="studentId">Student ID</label>
+          <input
+            className="w-full p-2 mt-1 border border-neutral-300 rounded-md shadow-sm"
+            type="text"
+            inputMode="numeric"
+            pattern="[0-9]*"
+            maxLength={8}
+            id="studentId"
+            name="studentid"
+            placeholder="22101150"
+            value={studentId}
+            onChange={handleStudentId}
+            required
+          />
+          {idError && (
+            <div className="text-red-500">ID should be 8 digits</div>
+          )}
+        </div>
+        <button
+          className="flex items-center justify-center w-full h-11 p-2 mt-8 border border-neutral-300 bg-neutral-900 rounded-md shadow-sm"
+          type="submit"
         >
-          <div>
-            <label htmlFor="name">Name</label>
-            <input
-              className="w-full p-2 mt-1 border border-neutral-300 rounded-md shadow-sm"
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Bracu Chicken"
-              onChange={handleName}
-              required
-            />
-            {nameError && (
-              <div className="text-red-500">Name should be 2-10 Characters</div>
-            )}
-          </div>
-          <div className=" mt-2">
-            <label htmlFor="studentId">Student ID</label>
-            <input
-              className="w-full p-2 mt-1 border border-neutral-300 rounded-md shadow-sm"
-              type="text"
-              inputMode="numeric"
-              pattern="[0-9]*"
-              maxLength={8}
-              id="studentId"
-              name="studentid"
-              placeholder="22101150"
-              value={studentId}
-              onChange={handleStudentId}
-              required
-            />
-            {idError && (
-              <div className="text-red-500">ID should be 8 digits</div>
-            )}
-          </div>
-          <button
-            className="flex items-center justify-center w-full h-11 p-2 mt-8 border border-neutral-300 bg-neutral-900 rounded-md shadow-sm"
-            type="submit"
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#ffffff"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="lucide lucide-send-horizontal-icon lucide-send-horizontal"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="#ffffff"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="lucide lucide-send-horizontal-icon lucide-send-horizontal"
-            >
-              <path d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z" />
-              <path d="M6 12h16" />
-            </svg>
-          </button>
-        </form>
-      </div>
-    </>
+            <path d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z" />
+            <path d="M6 12h16" />
+          </svg>
+        </button>
+      </form>
+    </div>
   );
 }
 
