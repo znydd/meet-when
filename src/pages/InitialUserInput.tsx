@@ -55,11 +55,11 @@ function InitialUserInput() {
       )}
 
       {parsingStatus === "success" ? (
-        <div className="h-screen flex flex-col items-center bg-[#fafafa]">
+        <div className="min-h-dvh flex flex-col items-center bg-[#fafafa]">
           <InsertNameId onNameId={handleNameId} />
         </div>
       ) : (
-        <div className="h-screen max-h-screen flex flex-col items-center bg-[#fafafa]">
+        <div className="h-dvh max-h-dvh overflow-hidden overscroll-none flex flex-col items-center bg-[#fafafa]">
           <Instruction />
           <PasteAsHtml onParseRoutine={handleRoutine} />
         </div>

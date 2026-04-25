@@ -4,7 +4,13 @@ import { getUser, upsertUser } from "../lib/dbQuery";
 
 type SaveStatus = "idle" | "saving" | "saved" | "error";
 
-function AddFriendRoutineModal({ onClose }: { onClose: () => void }) {
+function AddFriendRoutineModal({
+  onClose,
+  onSaved,
+}: {
+  onClose: () => void;
+  onSaved?: () => void | Promise<void>;
+}) {
   const [inputValue, setInputValue] = useState<string>("");
   const [previewTriggered, setPreviewTriggered] = useState<boolean>(false);
   const [saveStatus, setSaveStatus] = useState<SaveStatus>("idle");
@@ -48,6 +54,9 @@ function AddFriendRoutineModal({ onClose }: { onClose: () => void }) {
         routine: payload.routine,
       });
       setSaveStatus("saved");
+      if (onSaved) {
+        await onSaved();
+      }
       setTimeout(() => {
         onClose();
       }, 500);
@@ -138,4 +147,3 @@ function AddFriendRoutineModal({ onClose }: { onClose: () => void }) {
 }
 
 export default AddFriendRoutineModal;
-
