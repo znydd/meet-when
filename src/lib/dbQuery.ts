@@ -62,6 +62,21 @@ export async function createUser(user: User): Promise<string> {
   }
 }
 
+export async function upsertUser(user: User): Promise<"created" | "updated"> {
+  if (!user || !user.studentId) {
+    throw new UserQueryError("User object is invalid or missing a userName.");
+  }
+
+  try {
+    const existingUser = await db.users.get(user.studentId);
+    await db.users.put(user);
+    return existingUser ? "updated" : "created";
+  } catch (error) {
+    console.error("Unexpected database error in upsertUser:", error);
+    throw new UserQueryError("An unexpected error occurred while saving the shared routine.");
+  }
+}
+
 // --- READ ---
 
 export async function getAdmin(): Promise<User[] | null> {
