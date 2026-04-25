@@ -1,18 +1,22 @@
-import { TbHome } from "react-icons/tb";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { PiShareFatBold } from "react-icons/pi";
 import { IoAdd } from "react-icons/io5";
 import { useState } from "react";
 import { shareRoutine } from "../lib/shareRoutine";
 import AddFriendRoutineModal from "./AddFriendRoutineModal";
+import DeleteFriendRoutineModal from "./DeleteFriendRoutineModal";
 
-function FloatingNavBar({ onFriendSaved }: { onFriendSaved?: () => void | Promise<void> }) {
-  const [isAddOpen, setIsAddOpen] = useState<boolean>(false);
+function FloatingNavBar({ onDataChanged }: { onDataChanged?: () => void | Promise<void> }) {
+  const [activeModal, setActiveModal] = useState<"none" | "add" | "delete">("none");
 
   return (
     <>
-      {isAddOpen && (
-        <AddFriendRoutineModal onClose={() => setIsAddOpen(false)} onSaved={onFriendSaved} />
+      {activeModal === "add" && (
+        <AddFriendRoutineModal onClose={() => setActiveModal("none")} onSaved={onDataChanged} />
+      )}
+
+      {activeModal === "delete" && (
+        <DeleteFriendRoutineModal onClose={() => setActiveModal("none")} onChanged={onDataChanged} />
       )}
 
       {/* Main container: fixed, bottom-centered, and on top (z-50) */}
@@ -21,7 +25,7 @@ function FloatingNavBar({ onFriendSaved }: { onFriendSaved?: () => void | Promis
           <button
             type="button"
             className="p-3 rounded-full transition-colors active:bg-neutral-800 active:text-white"
-            onClick={() => setIsAddOpen(true)}
+            onClick={() => setActiveModal("add")}
             aria-label="Add"
           >
             <IoAdd size={24} />
@@ -29,16 +33,10 @@ function FloatingNavBar({ onFriendSaved }: { onFriendSaved?: () => void | Promis
           <button
             type="button"
             className="p-3 rounded-full transition-colors active:bg-neutral-800 active:text-white"
+            onClick={() => setActiveModal("delete")}
             aria-label="Delete"
           >
             <RiDeleteBin6Line size={24} />
-          </button>
-          <button
-            type="button"
-            className="p-3 rounded-full transition-colors active:bg-neutral-800 active:text-white"
-            aria-label="Home"
-          >
-            <TbHome size={24} />
           </button>
           <button
             type="button"

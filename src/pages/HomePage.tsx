@@ -43,7 +43,7 @@ function HomePage() {
         {showRoutine && routine ? (
           <div>
             <ShowRoutine routine={routine} friends={friends} />
-            <FloatingNavBar onFriendSaved={loadRoutines} />
+            <FloatingNavBar onDataChanged={loadRoutines} />
           </div>
         ) : (
           <InitialUserInput />

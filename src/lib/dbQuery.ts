@@ -77,6 +77,31 @@ export async function upsertUser(user: User): Promise<"created" | "updated"> {
   }
 }
 
+export async function deleteUser(studentId: string): Promise<void> {
+  if (!studentId) {
+    throw new UserQueryError("Student ID is required for delete.");
+  }
+
+  try {
+    await db.users.delete(studentId);
+  } catch (error) {
+    console.error("Unexpected database error in deleteUser:", error);
+    throw new UserQueryError("An unexpected error occurred while deleting the friend routine.");
+  }
+}
+
+export async function resetAllData(): Promise<void> {
+  try {
+    await db.transaction("rw", db.admin, db.users, async () => {
+      await db.admin.clear();
+      await db.users.clear();
+    });
+  } catch (error) {
+    console.error("Unexpected database error in resetAllData:", error);
+    throw new UserQueryError("An unexpected error occurred while resetting app data.");
+  }
+}
+
 // --- READ ---
 
 export async function getAdmin(): Promise<User[] | null> {
