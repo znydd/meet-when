@@ -1,34 +1,43 @@
-export async function shareRoutine() {
-  // 1. Serialize and encode the routine data
-  const routineObject = {
-    name: "Nabil",
-  };
-  const jsonString = JSON.stringify(routineObject);
-  const encodedData = encodeURIComponent(jsonString);
+import { getAdmin } from "./dbQuery";
+import { encodeSharedPayload, type SharedRoutinePayload } from "./sharedRoutineLink";
 
-  // 2. Create the full, shareable link
-  const shareUrl = `http://localhost:5173/import#${encodedData}`;
+export async function shareRoutine() {
+  const admins = await getAdmin();
+  if (!admins || admins.length === 0) {
+    alert("No routine found to share. Please set up your routine first.");
+    return;
+  }
+
+  const currentAdmin = admins[0];
+  const payload: SharedRoutinePayload = {
+    v: 1,
+    name: currentAdmin.name,
+    studentId: currentAdmin.studentId,
+    routine: currentAdmin.routine,
+  };
+  const encodedData = encodeSharedPayload(payload);
+  const shareText = `Paste this code in Meet-When Add:\n${encodedData}`;
 
   const shareData = {
-    title: "Check out my routine!",
-    text: `Here's my "${routineObject}" routine. Click the link to add it!`,
-    url: shareUrl,
+    title: `${currentAdmin.name}'s Routine`,
+    text: shareText,
   };
 
-  // 3. Check if the Web Share API is available
   if (navigator.share) {
     try {
-      // 4. Call the native share sheet!
       await navigator.share(shareData);
       console.log("Routine shared successfully");
     } catch (err) {
       console.error("Share failed:", err);
     }
   } else {
-    // 5. Fallback for desktop or unsupported browsers
-    alert(
-      "Sharing is not supported on this browser. You can copy the link manually.",
-    );
-    prompt("Copy this link to share:", shareUrl);
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(encodedData);
+      alert("Encoded routine copied. Share this code with your friend.");
+      return;
+    }
+
+    alert("Sharing is not supported on this browser. Copy the encoded routine manually.");
+    prompt("Copy this encoded routine:", encodedData);
   }
 }
