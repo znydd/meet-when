@@ -6,12 +6,14 @@ import { useState } from "react";
 import { shareRoutine } from "../lib/shareRoutine";
 import AddFriendRoutineModal from "./AddFriendRoutineModal";
 
-function FloatingNavBar() {
+function FloatingNavBar({ onFriendSaved }: { onFriendSaved?: () => void | Promise<void> }) {
   const [isAddOpen, setIsAddOpen] = useState<boolean>(false);
 
   return (
     <>
-      {isAddOpen && <AddFriendRoutineModal onClose={() => setIsAddOpen(false)} />}
+      {isAddOpen && (
+        <AddFriendRoutineModal onClose={() => setIsAddOpen(false)} onSaved={onFriendSaved} />
+      )}
 
       {/* Main container: fixed, bottom-centered, and on top (z-50) */}
       <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50">
