@@ -16,7 +16,7 @@ export async function shareRoutine() {
     routine: currentAdmin.routine,
   };
   const encodedData = encodeSharedPayload(payload);
-  const shareText = `Paste this code in Meet-When Add:\n${encodedData}`;
+  const shareText = `${encodedData}`;
 
   const shareData = {
     title: `${currentAdmin.name}'s Routine`,
