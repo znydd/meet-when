@@ -87,6 +87,15 @@ export async function getAdmin(): Promise<User[] | null> {
     return null;
   }
 }
+
+export async function getUsers(): Promise<User[] | null> {
+  try {
+    return await db.users.toArray();
+  } catch (error) {
+    console.error("Unexpected database error in getUsers:", error);
+    return null;
+  }
+}
 /**
  * Fetches a single user by their unique userName.
  * @param userName The unique name of the user to find.
