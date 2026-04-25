@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { Day, User } from "../types/type";
 import {
   buildMeetSuggestions,
@@ -6,6 +6,32 @@ import {
   restructureRoutine,
   WEEK_DAYS,
 } from "../lib/meetSuggestions";
+
+function getCurrentRoutineDay(): Day {
+  const today = new Date().getDay();
+
+  if (today === 6) {
+    return "SATURDAY";
+  }
+  if (today === 0) {
+    return "SUNDAY";
+  }
+  if (today === 1) {
+    return "MONDAY";
+  }
+  if (today === 2) {
+    return "TUESDAY";
+  }
+  if (today === 3) {
+    return "WEDNESDAY";
+  }
+  if (today === 4) {
+    return "THURSDAY";
+  }
+
+  // Friday is outside this routine view, so we start from Saturday.
+  return "SATURDAY";
+}
 
 function ShowRoutine({ routine, friends }: { routine: User; friends: User[] }) {
   const week: Day[] = WEEK_DAYS;
@@ -27,11 +53,27 @@ function ShowRoutine({ routine, friends }: { routine: User; friends: User[] }) {
     return buildMeetSuggestions(routine.routine, friends);
   }, [routine, friends]);
 
-  const [selectedDay, setSelectedDay] = useState<Day>("SATURDAY");
-  const [clickIndex, setClickIndex] = useState<number>(0);
+  const [selectedDay, setSelectedDay] = useState<Day>(() => getCurrentRoutineDay());
+  const activeIndex = week.indexOf(selectedDay);
+
+  useEffect(() => {
+    const syncToToday = () => {
+      setSelectedDay(getCurrentRoutineDay());
+    };
+
+    const onVisibilityChange = () => {
+      if (document.visibilityState === "visible") {
+        syncToToday();
+      }
+    };
+
+    document.addEventListener("visibilitychange", onVisibilityChange);
+    return () => {
+      document.removeEventListener("visibilitychange", onVisibilityChange);
+    };
+  }, []);
 
   const handleClick = (index: number) => {
-    setClickIndex(index);
     setSelectedDay(week[index]);
   };
 
@@ -44,7 +86,7 @@ function ShowRoutine({ routine, friends }: { routine: User; friends: User[] }) {
               return (
                 <div
                   key={index}
-                  className={`text-center content-center border-r w-1/6 rounded-l-lg ${index == clickIndex ? "bg-neutral-800 text-white font-semibold" : ""}`}
+                  className={`text-center content-center border-r w-1/6 rounded-l-lg ${index == activeIndex ? "bg-neutral-800 text-white font-semibold" : ""}`}
                   onClick={() => handleClick(index)}
                 >
                   {convert[day]}
@@ -54,7 +96,7 @@ function ShowRoutine({ routine, friends }: { routine: User; friends: User[] }) {
               return (
                 <div
                   key={index}
-                  className={`text-center content-center border-r w-1/6 rounded-r-lg ${index == clickIndex ? "bg-neutral-800 text-white font-semibold" : ""}`}
+                  className={`text-center content-center border-r w-1/6 rounded-r-lg ${index == activeIndex ? "bg-neutral-800 text-white font-semibold" : ""}`}
                   onClick={() => handleClick(index)}
                 >
                   {convert[day]}
@@ -64,7 +106,7 @@ function ShowRoutine({ routine, friends }: { routine: User; friends: User[] }) {
               return (
                 <div
                   key={index}
-                  className={`text-center content-center border-r w-1/6  ${index == clickIndex ? "bg-neutral-800 text-white font-semibold" : ""}`}
+                  className={`text-center content-center border-r w-1/6  ${index == activeIndex ? "bg-neutral-800 text-white font-semibold" : ""}`}
                   onClick={() => handleClick(index)}
                 >
                   {convert[day]}
