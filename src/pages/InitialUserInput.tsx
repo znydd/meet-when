@@ -1,15 +1,14 @@
-import Instruction from "./instruction";
-import PasteAsHtml from "./pasteAsHtml";
-import InsertNameId from "./insertNameId";
+import Instruction from "../components/instruction";
+import PasteAsHtml from "../components/pasteAsHtml";
+import InsertNameId from "../components/insertNameId";
 import type { User, EachDay, Status } from "../types/type";
 import { createAdmin } from "../lib/dbQuery";
 import { useState } from "react";
+import { useNavigate } from "react-router";
+import { FaCircleCheck } from "react-icons/fa6";
 
-function InitialUserInput({
-  onInputDone,
-}: {
-  onInputDone: (inputDone: boolean) => void;
-}) {
+function InitialUserInput() {
+  const navigate = useNavigate();
   const [routine, setRoutine] = useState<EachDay | null>(null);
   const [parsingStatus, setParsingStatus] = useState<Status>("idle");
   const [statusModal, setStatusModal] = useState<"show" | "hide">("hide");
@@ -37,7 +36,7 @@ function InitialUserInput({
         setStatusModal("show");
         setTimeout(() => {
           setStatusModal("hide");
-          onInputDone(true);
+          navigate("/");
         }, 1000);
       }
       console.log(newUser);
@@ -48,8 +47,9 @@ function InitialUserInput({
     <>
       {statusModal === "show" && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-transparent bg-opacity-50 backdrop-blur-sm text-black">
-          <div className="text-center border showdow-sm bg-white px-14 py-10 rounded-lg">
-            Done
+          <div className="flex flex-col items-center justify-center  border shadow-sm bg-white px-14 py-10 rounded-lg">
+            <FaCircleCheck className="text-green-500 text-4xl " />
+            <p className="text-lg font-semibold">Done</p>
           </div>
         </div>
       )}
@@ -59,7 +59,7 @@ function InitialUserInput({
           <InsertNameId onNameId={handleNameId} />
         </div>
       ) : (
-        <div className="h-screen flex flex-col items-center bg-[#fafafa]">
+        <div className="h-screen max-h-screen flex flex-col items-center bg-[#fafafa]">
           <Instruction />
           <PasteAsHtml onParseRoutine={handleRoutine} />
         </div>

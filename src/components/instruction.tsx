@@ -1,7 +1,7 @@
 function Instruction() {
   return (
     <>
-      <div className=" flex flex-col mb-40 mt-16 text-[#171717] font-mono">
+      <div className=" flex flex-col mb-4 mt-16 text-[#171717] font-mono">
         <div className="flex items-center">
           <svg
             width="20"

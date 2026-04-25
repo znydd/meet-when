@@ -22,10 +22,35 @@ export default defineConfig({
       },
 
       manifest: {
+        id: "/",
         name: "meet-when",
         short_name: "meet-when",
         description: "Offline Routine Sharing App",
+        start_url: "/",
+        scope: "/",
         theme_color: "#ffffff",
+        background_color: "#FFFFFF",
+        display: "standalone",
+        icons: [
+          {
+            src: "/pwa-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+            purpose: "any",
+          },
+          {
+            src: "/pwa-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+            purpose: "any",
+          },
+          {
+            src: "/maskable-icon-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+            purpose: "maskable",
+          },
+        ],
       },
 
       injectManifest: {
@@ -40,6 +65,10 @@ export default defineConfig({
       },
     }),
   ],
+  server: {
+    host: true,
+    allowedHosts: true,
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

@@ -21,13 +21,13 @@ function InsertNameId({
   };
   const handleStudentId = (event: React.ChangeEvent<HTMLInputElement>) => {
     event.preventDefault();
-    if (event.target.value.length === 8) {
+    const value = event.target.value.replace(/\D/g, "").slice(0, 8);
+    setStudentId(value);
+    if (value.length === 8) {
       setIdError(false);
     } else {
       setIdError(true);
-      setStudentId(event.target.value);
     }
-    console.log(parseInt(event.target.value));
   };
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
@@ -56,8 +56,11 @@ function InsertNameId({
           <path d="m6.804 9 10.392 6" />
         </svg>
       </div>
-      <div className=" h-64 w-10/12 mt-36 p-4 max-w-[360px]  bg-[#ffffff] border-1 border-neutral-200 rounded-xl font-mono text-sm font-medium">
-        <form onSubmit={handleSubmit}>
+      <div className="h-screen flex flex-col items-center justify-center">
+        <form
+          onSubmit={handleSubmit}
+          className="h-64 w-5/6 xs:w-full p-4  max-w-lg min-w-[300px]  bg-[#ffffff] border-1 border-neutral-200 rounded-xl font-mono text-sm font-medium"
+        >
           <div>
             <label htmlFor="name">Name</label>
             <input
@@ -77,10 +80,14 @@ function InsertNameId({
             <label htmlFor="studentId">Student ID</label>
             <input
               className="w-full p-2 mt-1 border border-neutral-300 rounded-md shadow-sm"
-              type="number"
+              type="text"
+              inputMode="numeric"
+              pattern="[0-9]*"
+              maxLength={8}
               id="studentId"
               name="studentid"
               placeholder="22101150"
+              value={studentId}
               onChange={handleStudentId}
               required
             />
