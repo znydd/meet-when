@@ -25,3 +25,4 @@ dev-dist
 *.sw?
 draft.ts
 public
+.codex
