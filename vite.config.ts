@@ -23,8 +23,8 @@ export default defineConfig({
 
       manifest: {
         id: "/",
-        name: "meet-when",
-        short_name: "meet-when",
+        name: "Meet When",
+        short_name: "Meet-When",
         description: "Offline Routine Sharing App",
         start_url: "/",
         scope: "/",
