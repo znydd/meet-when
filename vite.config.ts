@@ -15,10 +15,10 @@ export default defineConfig({
       filename: "sw.ts",
       registerType: "autoUpdate",
       injectRegister: false,
+      includeManifestIcons: false,
 
       pwaAssets: {
-        disabled: false,
-        config: true,
+        disabled: true,
       },
 
       manifest: {
