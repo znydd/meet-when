@@ -1,18 +1,20 @@
 import ShowRoutine from "../components/showRoutine.tsx";
-import InitialUserInput from "../pages/InitialUserInput.tsx";
 import { useState, useEffect, useCallback } from "react";
 import type { User } from "../types/type.ts";
 import { getAdmin, getUsers } from "../lib/dbQuery";
 import { useNavigate } from "react-router";
 import FloatingNavBar from "../components/FloatingNavBar.tsx";
+import StartupLoadingScreen from "../components/StartupLoadingScreen.tsx";
 
 function HomePage() {
   const navigate = useNavigate();
+  const [isBootLoading, setIsBootLoading] = useState<boolean>(true);
   const [showRoutine, setShowRoutine] = useState<boolean>(false);
   const [routine, setRoutine] = useState<User | null>(null);
   const [friends, setFriends] = useState<User[]>([]);
 
   const loadRoutines = useCallback(async () => {
+    setIsBootLoading(true);
     try {
       const [adminResponse, friendsResponse]: [User[] | null, User[] | null] = await Promise.all([
         getAdmin(),
@@ -30,6 +32,8 @@ function HomePage() {
       }
     } catch (error) {
       console.error(error);
+    } finally {
+      setIsBootLoading(false);
     }
   }, [navigate]);
 
@@ -37,17 +41,20 @@ function HomePage() {
     void loadRoutines();
   }, [loadRoutines]);
 
+  if (isBootLoading) {
+    return <StartupLoadingScreen />;
+  }
+  if (!showRoutine || !routine) {
+    return null;
+  }
+
   return (
     <>
       <div className=" h-screen">
-        {showRoutine && routine ? (
-          <div>
-            <ShowRoutine routine={routine} friends={friends} />
-            <FloatingNavBar onDataChanged={loadRoutines} />
-          </div>
-        ) : (
-          <InitialUserInput />
-        )}
+        <div>
+          <ShowRoutine routine={routine} friends={friends} />
+          <FloatingNavBar onDataChanged={loadRoutines} />
+        </div>
       </div>
     </>
   );
